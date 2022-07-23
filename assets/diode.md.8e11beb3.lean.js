@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as o}from"./app.ef57b876.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"diode.md","lastUpdated":1658569910000}'),s={name:"diode.md"},d=o("p",null,"here comes diode",-1),r=[d];function c(n,i,_,p,l,m){return a(),t("div",null,r)}var u=e(s,[["render",c]]);export{h as __pageData,u as default};
