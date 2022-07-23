@@ -1,7 +1,7 @@
 ::: tip 集总参数 vs. 分布参数
 
 * **集总参数电路**（lumped circuit）: 实际电路的尺寸远小于电路工作时电磁波的波长。【本课程主要考虑集总参数电路】
-* **分布参数电路**（distributed circuit）: 实际电路的尺寸与电路工作时电磁波的波长相当或更大。一般超过**十分之一**波长时需要考虑。如蓝牙工作频率 2.4 GHz， $\frac{1}{10}\lambda \approx \frac{0.3\,Gm/s}{2.4 \,GHz}\times 0.1=12.5mm$ 故蓝牙PCB电路中，铜线超过12.5 mm后需要考虑传输线分布效应。
+* **分布参数电路**（distributed circuit）: 实际电路的尺寸与电路工作时电磁波的波长相当或更大。一般超过**十分之一**波长时需要考虑。如蓝牙工作频率 2.4 GHz， $\frac{1}{10}\lambda \approx \frac{0.3\,Gm/s}{2.4 \,GHz}\times 0.1=12.5mm$, 故蓝牙PCB电路中，铜线超过12.5 mm后需要考虑传输线分布效应。
 
 :::
 
@@ -25,4 +25,4 @@
 
 :::
 
-<img src="./concepts.assets/image-20220723203001463.png" alt="image-20220723203001463" style="zoom:50%;" />
+![image-20220723210216726](./concepts.assets/image-20220723210216726.png)
