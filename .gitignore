@@ -1,0 +1,10 @@
+*.log
+*.lock
+.DS_Store
+.vite_opt_cache
+dist
+node_modules
+todo.md
+.vscode
+bak
+
