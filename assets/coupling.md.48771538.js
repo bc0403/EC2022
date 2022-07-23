@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.71cdba68.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"coupling.md","lastUpdated":1658569910000}'),s={name:"coupling.md"},c=o("p",null,"here comes coupling",-1),n=[c];function r(p,i,l,_,d,u){return a(),t("div",null,n)}var h=e(s,[["render",r]]);export{f as __pageData,h as default};

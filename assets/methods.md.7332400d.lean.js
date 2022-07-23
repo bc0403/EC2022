@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.71cdba68.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"methods.md","lastUpdated":1658569910000}'),s={name:"methods.md"},r=o("p",null,"here comes method",-1),c=[r];function d(n,_,m,p,i,l){return a(),t("div",null,c)}var u=e(s,[["render",d]]);export{f as __pageData,u as default};
