@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a as s}from"./app.71cdba68.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"phasor.md","lastUpdated":1658569910000}'),o={name:"phasor.md"},r=s("p",null,"here comes phasor",-1),c=[r];function n(p,_,d,i,l,h){return t(),a("div",null,c)}var u=e(o,[["render",n]]);export{f as __pageData,u as default};

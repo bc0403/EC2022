@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,a}from"./app.71cdba68.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"mosfet.md","lastUpdated":1658569910000}'),o={name:"mosfet.md"},r=a("p",null,"here comes mosfet",-1),c=[r];function n(_,d,m,p,f,i){return s(),t("div",null,c)}var u=e(o,[["render",n]]);export{h as __pageData,u as default};
