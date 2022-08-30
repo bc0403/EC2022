@@ -1,3 +1,6 @@
+## 0.2.2
+upgrade node.js and vitepress to v16.17.0 and v1.0.0-alpha.12
+
 ## 0.2.1
 ### Bug Fixes
 * inline latex display
