@@ -6,8 +6,8 @@
   "author": "bc0403 <hjin.zj@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.4",
-    "vue": "^3.2.37"
+    "vitepress": "^1.0.0-alpha.12",
+    "vue": "^3.2.38"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
