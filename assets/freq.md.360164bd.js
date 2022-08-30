@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as r}from"./app.ef57b876.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"freq.md","lastUpdated":1658569910000}'),s={name:"freq.md"},o=r("p",null,"here comes freq",-1),c=[o];function n(_,d,p,f,i,l){return a(),t("div",null,c)}var u=e(s,[["render",n]]);export{h as __pageData,u as default};

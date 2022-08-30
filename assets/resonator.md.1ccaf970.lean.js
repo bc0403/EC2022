@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a}from"./app.15cd16a8.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"resonator.md","lastUpdated":1658569910000}'),r={name:"resonator.md"},s=a("p",null,"here comes resonator",-1),n=[s];function c(_,d,p,i,l,m){return o(),t("div",null,n)}const u=e(r,[["render",c]]);export{h as __pageData,u as default};
