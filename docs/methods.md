@@ -830,3 +830,135 @@ A. 电流			B. 电压			C. 功率
    ​	  $U_2=(30-30×\frac{3}{3+2})-(30-30×\frac{6}{6+3})=12V-10V=2V$ 
 
    ​	  $U=U_1+U_2=8.4V$ 
+
+
+
+## 知识点7：戴维南定理
+
+1、用戴维南定理求 $V$ 。
+
+![2-7-1](./methods.assets/2-7-1.png)
+
+
+
+2、下图所示电路的戴维南等效电路是 ________ 。【图待修改】
+
+<img src="./methods.assets/2-7-2.png" alt="2-7-2" style="zoom: 50%;" />
+
+A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B. <img src="./methods.assets/2-7-2-B.png" alt="2-7-2-B" style="zoom:33%;" />	C. <img src="./methods.assets/2-7-2-C.png" alt="2-7-2-C" style="zoom:33%;" />	D. <img src="./methods.assets/2-7-2-D.png" alt="2-7-2-D" style="zoom:33%;" />
+
+
+
+3、将下图 (a) 电路等效为图 (b) 电路，可求得输出端短路电流 $I$ = ________ 。
+
+<img src="./methods.assets/2-7-3.png" alt="2-7-3" style="zoom: 50%;" />
+
+
+
+4、求下图所示电路的戴维南等效电路。
+
+<img src="./methods.assets/2-7-4.png" alt="2-7-4" style="zoom: 67%;" />
+
+
+
+5、如下图所示电路，当 $R_x=20Ω$ 时，求电流 $I_x$ 。
+
+<img src="./methods.assets/2-7-5.png" alt="2-7-5" style="zoom:60%;" />
+
+
+
+6、求下图所示单口网络的戴维南等效电路。
+
+<img src="./methods.assets/2-7-6.png" alt="2-7-6" style="zoom:50%;" />
+
+
+
+**参考解答**
+
+1. 解：
+
+   (1) 求开路电压：a、b 开路， $I=0,V_{oc}=10V$ 
+
+   (2) turn off 独立源，求 $R_o$ ：加压求流法
+
+   <img src="./methods.assets/解-2-7-1-1848752.png" alt="解-2-7-1" style="zoom: 50%;" />
+
+   得到： $V_o=(I_o-0.5I_o)×10^3+I_o×10^3=1500I_o$ 
+
+   故而	$R_o=V_o/I_o=1.5kΩ$ 
+
+   (3) 等效电路：
+
+   将 $R_0=1.5kΩ,V_{oc}=10V$ 代入右侧的等效电路图中，
+
+   得到： $V=V_{oc}×500/(1500+500)=2.5V$ 
+
+
+
+2. A
+
+3. $-0.5$ A
+
+4. 解：
+
+   (1) 首先求开路电压 $v_{OC}$ 。采用节点分析法来求解。
+
+   <img src="./methods.assets/解-2-7-4-1.png" alt="解-2-7-4-1" style="zoom:50%;" />
+
+   
+   $$
+   \begin{cases}
+   (\frac{1}{1}+\frac{1}{2})v_{OC}-\frac{1}{1}×v_{n2}-\frac{1}{2}×v_{n3}=0 \\
+   -(\frac{1}{1}+\frac{1}{2})v_{OC}+(\frac{1}{1}+\frac{1}{1})v_{n2}+(\frac{1}{1}+\frac{1}{2})v_{n3}=0 \\
+   v_{n2}-v_{n3}=1
+   \end{cases}
+   $$
+   解得： $v_{OC}=\frac{4}{3}V≈1.33V$ 
+
+   (2) 然后求等效电阻 $R_o$ 
+
+   ​	 在端口施加一电压 $v$ ，独立电压源短路，与受控电流源串联的电阻可以视为短路，得到：
+
+   <img src="./methods.assets/解-2-7-4-2.png" alt="解-2-7-4-2" style="zoom: 50%;" />
+
+   ​	  则 $i=0.75v+\frac{-v}{1Ω||2Ω+1Ω||1Ω}=0.75v+\frac{-v}{\frac{2}{3}+\frac{1}{2}}⇒v=-\frac{28}{3}i$ 
+
+   ​		 $R_o=-\frac{v}{i}=\frac{28}{3}Ω≈9.33Ω$ 
+
+   ​	  因此，原电路的戴维南等效电路如下所示：
+
+   <img src="./methods.assets/解-2-7-4-3.png" alt="解-2-7-4-3" style="zoom:50%;" />
+
+   
+
+5. 解：
+
+   求出 $I_x$ 所在支路之外电路的戴维宁等效电路。
+   $$
+   \begin{cases}
+   u_{oc}=\frac{6}{3+6}×18-\frac{3}{3+6}×18=6V \\
+   R_{eq}=\frac{3×6}{3+6}+\frac{6×3}{6+3}=4Ω \\
+   ∴I_x=\frac{U_{oc}}{R_{eq}+20}=\frac{6}{4+20}=0.25A
+   \end{cases}
+   $$
+   等效电路：
+
+   <img src="./methods.assets/image-20220830164035106.png" alt="image-20220830164035106" style="zoom:50%;" />
+
+
+
+6. 解：
+
+   (1) 先求开路电压：
+
+   根据节点法有：
+
+   $\begin{cases} (\frac{1}{10}+\frac{1}{10})v_{n1}-\frac{1}{10}v_{oc}=2 \\ -\frac{1}{10}v_{n1}+(\frac{1}{20}+\frac{1}{10})v_{oc}=1+\frac{5}{20} \end{cases}$ 	解得：$v_{oc}=22.5V$ 
+
+   (2) 再求戴维南等效电阻：
+
+   $R_o=20Ω||(10Ω+10Ω)=\frac{20×20}{20+20}=10Ω$ 
+
+   (3) 等效电路图如下：
+
+   <img src="./methods.assets/image-20220830164122506.png" alt="image-20220830164122506" style="zoom:50%;" />
