@@ -274,37 +274,31 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
 
 
-2、如下图所示电路，在 t = 0 时刻前开关长时间闭合。t = 0 时刻，开关打开，求 t > 0 时的 $i(t)$ 。
-
-<img src="./transition.assets/4-2-2.png" alt="4-2-2" style="zoom: 67%;" />
-
-
-
-3、如图所示电路中，已知 $R_1$ = 5 Ω，$R_2$ = 1 Ω，L = 1 H，C = 0.25 F，V = 24 V。t = 0时开关断开。求 t > 0 时的 $v_c(t)$ 和 $i(t)$ 。
+2、如图所示电路中，已知 $R_1$ = 5 Ω，$R_2$ = 1 Ω，L = 1 H，C = 0.25 F，V = 24 V。t = 0时开关断开。求 t > 0 时的 $v_c(t)$ 和 $i(t)$ 。
 
 <img src="./transition.assets/4-2-3.png" alt="4-2-3" style="zoom: 60%;" />
 
 
 
-4、如图所示电路，开关置于 a 已经很久，在 t = 0 时开关打至b，求电流 $i(t)$ 。
+3、如图所示电路，开关置于 a 已经很久，在 t = 0 时开关打至b，求电流 $i(t)$ 。
 
 <img src="./transition.assets/4-2-4.png" alt="4-2-4" style="zoom:60%;" />
 
 
 
-5、如下图所示电路，开关闭合时电路处于稳态，在 t = 0 时开关打开，求 t > 0 时的 $v_c(t)$ 。
+4、如下图所示电路，开关闭合时电路处于稳态，在 t = 0 时开关打开，求 t > 0 时的 $v_c(t)$ 。
 
 <img src="./transition.assets/4-2-5.png" alt="4-2-5" style="zoom:60%;" />
 
 
 
-6、如下图所示电路，在 t = 0 时刻前，开关在位置 1 时电路已达到稳定状态，t = 0 时开关由位置 1 合向位置 2 ，求 t > 0 时，流过电感的电流。
+5、如下图所示电路，在 t = 0 时刻前，开关在位置 1 时电路已达到稳定状态，t = 0 时开关由位置 1 合向位置 2 ，求 t > 0 时，流过电感的电流。
 
 <img src="./transition.assets/4-2-6.png" alt="4-2-6" style="zoom:50%;" />
 
 
 
-7、下图所示电路中，电容原先已经充电，$u_C(0^-)=6V,R=2.5Ω,L=0.25H,C=0.25F$ 。试求：
+6、下图所示电路中，电容原先已经充电，$u_C(0^-)=6V,R=2.5Ω,L=0.25H,C=0.25F$ 。试求：
 
 (1) 开关闭合后的 $u_C(t)$ 和 $i(t)$ 
 
@@ -314,7 +308,7 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
 
 
-8、如下图所示电路，当 *t* = 0 时刻打开开关，求电流 $i$ 的响应。
+7、如下图所示电路，当 *t* = 0 时刻打开开关，求电流 $i$ 的响应。
 
 <img src="./transition.assets/4-2-8.png" alt="4-2-8" style="zoom:50%;" />
 
@@ -324,66 +318,64 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
 1. ![image-20220906093928168](./transition.assets/image-20220906093928168.png)
 
-2. 暂无
-
-3. <img src="./transition.assets/image-20220906121204112.png" alt="image-20220906121204112" style="zoom:70%;" />
+2. <img src="./transition.assets/image-20220906121204112.png" alt="image-20220906121204112" style="zoom:70%;" />
 
    <img src="./transition.assets/image-20220906121452879.png" alt="image-20220906121452879" style="zoom:70%;" />
 
+3. 解：
+
+(1)在 $t = 0^-$ 时， $v_C=0,i_L(0)=i(0)=\frac{6}{6+2}×4=3A$ 
+
+(2)当 $t>0$ 时，可以将 RLC 电路简化如下：
+
+<img src="./transition.assets/image-20220906121809122.png" alt="image-20220906121809122" style="zoom:60%;" />
+
+
+$$
+\omega_0=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{2×0.02}}=5rad/s
+$$
+
+$$
+\alpha = \frac{R}{2L}=\frac{6+14}{2×2}=5rad/s
+$$
+
+因为 $\alpha =\omega_0$ ，所以为临界阻尼响应。故有：
+$$
+\begin{cases}
+v(t)=V_s+(A+Bt)e^{-5t},V_s=24-12=12V \\
+v(0)=0=12+A \\
+⇒ A=-12 \\
+\\
+i=C\frac{dv}{dt}=C[Be^{-5t}+(-5)×(A+Bt)e^{-5t}] \\
+i(0)=3=C(-5A+B)=0.02×(60+B) \\
+⇒ B=90 \\
+\\
+∴i(t) = 0.02[90e^{-5t} + (-5)×(-12 + 90t)e^{-5t}] \\
+⇒ i(t) = [(3 - 9t)e^{-5t}] A
+\end{cases}
+$$
+
 4. 解：
 
-   (1)在 $t = 0^-$ 时， $v_C=0,i_L(0)=i(0)=\frac{6}{6+2}×4=3A$ 
+(1)   $v_c(0^-)=v_c(0^+)=0$ ，$i_L(0^-)=i_L(0^+)=\frac{30}{30}=1A$ 
 
-   (2)当 $t>0$ 时，可以将 RLC 电路简化如下：
+​		$\frac{dv_C(0^+)}{dt}=\frac{1}{C}i_C(0^+)=\frac{1}{0.05}×1=20 V/s$ 
 
-   <img src="./transition.assets/image-20220906121809122.png" alt="image-20220906121809122" style="zoom:60%;" />
+​		$v_C(∞)=30V$ 
 
-   
-   $$
-   \omega_0=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{2×0.02}}=5rad/s
-   $$
+(2)   求解 natural response
 
-   $$
-   \alpha = \frac{R}{2L}=\frac{6+14}{2×2}=5rad/s
-   $$
+<img src="./transition.assets/解-4-2-5.png" alt="解-4-2-5" style="zoom:60%;" />
 
-   因为 $\alpha =\omega_0$ ，所以为临界阻尼响应。故有：
-   $$
-   \begin{cases}
-   v(t)=V_s+(A+Bt)e^{-5t},V_s=24-12=12V \\
-   v(0)=0=12+A \\
-   ⇒ A=-12 \\
-   \\
-   i=C\frac{dv}{dt}=C[Be^{-5t}+(-5)×(A+Bt)e^{-5t}] \\
-   i(0)=3=C(-5A+B)=0.02×(60+B) \\
-   ⇒ B=90 \\
-   \\
-   ∴i(t) = 0.02[90e^{-5t} + (-5)×(-12 + 90t)e^{-5t}] \\
-   ⇒ i(t) = [(3 - 9t)e^{-5t}] A
-   \end{cases}
-   $$
+​	   $RC\frac{dv_C}{dt}+LC\frac{d^2v_C}{dt^2}+v_C=0⇒\frac{30}{20}\frac{dv_C}{dt}+\frac{10}{20}\frac{d^2v_C}{dt^2}+v_C=0$ 
+
+​	   $s^2+3s+2=(s+1)(s+2)⇒v_C(t)=(30+Ae^{-t}+Be^{-2t})V$ 
+
+​	   将(1)中的边界条件代入上式，得到：
+
+​	   $v_C(t)=(30-40e^{-t}+10e^{-2t})V,t>0$ 
 
 5. 解：
-
-   (1)   $v_c(0^-)=v_c(0^+)=0$ ，$i_L(0^-)=i_L(0^+)=\frac{30}{30}=1A$ 
-
-   ​		$\frac{dv_C(0^+)}{dt}=\frac{1}{C}i_C(0^+)=\frac{1}{0.05}×1=20 V/s$ 
-
-   ​		$v_C(∞)=30V$ 
-
-   (2)   求解 natural response
-
-   <img src="./transition.assets/解-4-2-5.png" alt="解-4-2-5" style="zoom:60%;" />
-
-   ​	   $RC\frac{dv_C}{dt}+LC\frac{d^2v_C}{dt^2}+v_C=0⇒\frac{30}{20}\frac{dv_C}{dt}+\frac{10}{20}\frac{d^2v_C}{dt^2}+v_C=0$ 
-
-   ​	   $s^2+3s+2=(s+1)(s+2)⇒v_C(t)=(30+Ae^{-t}+Be^{-2t})V$ 
-
-   ​	   将(1)中的边界条件代入上式，得到：
-
-   ​	   $v_C(t)=(30-40e^{-t}+10e^{-2t})V,t>0$ 
-
-6. 解：
 
    根据诺顿等效转换为二阶并联RLC电路，$I_s=2A$。
 
@@ -401,7 +393,7 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
    $∴i_L=[2-\frac{23}{15}e^{-8t}+\frac{68}{15}e^{-2t}]A$ 
 
-7. 解：
+6. 解：
 
    ​		$LC\frac{d^2u_C}{dt^2}+RC\frac{du_C}{dt}+u_C=0$ 
 
@@ -421,7 +413,7 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
    ​		$i(t)=4(e^{-2t}-e^{-8t})A$ 
 
-8. 解：
+7. 解：
 
    电流 $i$ 的响应方程为：
 
