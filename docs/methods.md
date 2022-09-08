@@ -96,7 +96,7 @@ A. 4 Ω	B. 1 Ω	C. ﹣2 Ω	D. 2 Ω
 
 <img src="./methods.assets/2-1-5-0.png" alt="2-1-5-0" style="zoom: 50%;" />
 
-A. <img src="./methods.assets/2-1-5-A.png" alt="2-1-5-A" style="zoom: 33%;" />	B. <img src="./methods.assets/2-1-5-B.png" alt="2-1-5-B" style="zoom:33%;" />	C. <img src="./methods.assets/2-1-5-C.png" alt="2-1-5-C" style="zoom:33%;" />	D. <img src="./methods.assets/2-1-5-D.png" alt="2-1-5-D" style="zoom:33%;" />
+A. <img src="./methods.assets/2-1-5-A.png" alt="2-1-5-A" style="zoom: 33%;" />	B. <img src="./methods.assets/2-1-5-B.png" alt="2-1-5-B" style="zoom:33%;" />	C. <img src="./methods.assets/2-1-5-C.png" alt="2-1-5-C" style="zoom:46%;" />	D. <img src="./methods.assets/2-1-5-D.png" alt="2-1-5-D" style="zoom:46%;" />
 
 
 
