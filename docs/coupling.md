@@ -348,7 +348,7 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
 3、右图所示电路中的输出电压 $\vec{V_o}=$ ________ 。
 
-<img src="coupling.assets/6-4-3.png" alt="6-4-3" style="zoom: 50%;" />
+<img src="./coupling.assets/6-4-3.png" alt="6-4-3" style="zoom: 50%;" />
 
 
 
