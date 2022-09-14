@@ -100,6 +100,22 @@ A. <img src="./methods.assets/2-1-5-A.png" alt="2-1-5-A" style="zoom: 33%;" />	B
 
 
 
+6、下图所示电路 ab 端的等效电阻 $R_{ab}$ 等于 ________ 。
+
+<img src="./methods.assets/2-1-6.png" alt="2-1-6" style="zoom: 50%;" />
+
+A. 10 Ω				B. 9.5 Ω				C. 9 Ω				D. 8.5 Ω
+
+
+
+7、下图所示电路的端口等效电阻等于 ________ Ω。
+
+<img src="./methods.assets/2-1-7.png" alt="2-1-7" style="zoom: 50%;" />
+
+
+
+
+
 **参考解答**
 
 1. C
@@ -107,6 +123,8 @@ A. <img src="./methods.assets/2-1-5-A.png" alt="2-1-5-A" style="zoom: 33%;" />	B
 3. 电流源        电压源
 4. 8 F
 5. A
+6. B
+7. $-20$
 
 
 
@@ -159,6 +177,32 @@ A. 4V		B. 5V		C. 6V		D. 3V
 7、欲使下图所示电路中的支路电流 $I$ = 1 A，试求电流源的输出电流 $I_S$ 。
 
 <img src="./methods.assets/2-2-7.png" alt="2-2-7" style="zoom:50%;" />
+
+
+
+8、如下图所示电路，支路电流 $I$ 的值为 ________ 。
+
+<img src="./methods.assets/2-2-8.png" alt="2-2-8" style="zoom: 50%;" />
+
+
+
+9、利用如下图所示的惠斯登电桥可以较为精确地测量中等阻值的电阻，其中 $R_1=R_3=1{\rm k \Omega}$ ，调节可调电阻 $R_2$ 使电流表的指示为零，此时称电桥处于平衡状态，${R_2} = 4{\rm{k}}\Omega $，则被测电阻 $R_x$ 的阻值为 ________ 。
+
+<img src="./methods.assets/2-2-9.png" alt="2-2-9" style="zoom: 50%;" />
+
+
+
+10、下图所示电路中，电流 $I$ 的值为 ________ 。
+
+<img src="./methods.assets/2-2-10.png" alt="2-2-10" style="zoom: 50%;" />
+
+
+
+11、根据图中的参数，计算 $v_o$。
+
+<img src="./methods.assets/2-2-11.png" alt="2-2-11" style="zoom: 50%;" />
+
+
 
 
 
@@ -235,6 +279,20 @@ A. 4V		B. 5V		C. 6V		D. 3V
 
    $I_{da}=\frac{V_{da}}{3Ω}=1A,I_s=I_{da}+I_{dc}=1A+4A=5A$ 
 
+8. 3 A
+
+9. 4 kΩ
+
+10. $\frac{10}{9}{\rm A}$ 。与电流源串联的电阻不改变电流值；与电压源并联的电阻不改变电压值。
+
+11. 解：
+
+    列方程组如下
+
+    $\begin{cases}	-12+4i+2v_o-4+6i=0 \\ i=-\frac{v_o}{6}	\end{cases}$ 	$\Rightarrow$	 $\begin{cases}	i=-8{\rm A} \\ v_o=48{\rm V}	\end{cases}$ 
+
+    
+
 
 
 ## 知识点3：Y-$\Delta$ 等效变换
@@ -310,6 +368,28 @@ $$
 6、用网孔电流法求如下图所示电路中的电压 $v$。
 
 <img src="./methods.assets/2-4-6.png" alt="2-4-6" style="zoom: 60%;" />
+
+
+
+7、使用网孔电流法求解下图中 $i_1$、$i_2$、$i_3$。
+
+<img src="./methods.assets/image-20220913165141920.png" alt="image-20220913165141920" style="zoom:50%;" />
+
+
+
+8、用网孔电流法求解下图中的 $\vec{I_o}$ 。
+
+<img src="./methods.assets/2-4-8.png" alt="2-4-8" style="zoom: 50%;" />
+
+
+
+9、列出图示电路的网孔电流方程,并求 $I$。
+
+<img src="./methods.assets/2-4-9.png" alt="2-4-9" style="zoom: 50%;" />
+
+
+
+
 
 
 
@@ -435,6 +515,50 @@ $$
 
    <img src="./methods.assets/image-20220830140515819.png" alt="image-20220830140515819" style="zoom:50%;" />
 
+7. 解：
+
+   考虑到独立电流源的存在，将 $i_1$ 和 $i_2$ 所在的网孔并作一个 $supermesh$ 看待。
+
+   列网孔电流方程如下：
+
+   $\begin{cases}	-8 +2(i_1-i_3)+4(i_2-i_3) + 8i_2 = 0 \\ 2(i_3-i_1)+2i_3+4(i_3-i_2)=0 \\ 	\end{cases}	$ 
+
+   增补方程 $i_1-i_2=4$ 
+
+   联立解得：
+
+   $i_1=\frac{88}{19}{\rm A},i_2=\frac{12}{19}{\rm A},i_3=\frac{28}{19}{\rm A}$ 
+
+   <img src="./methods.assets/image-20220913233707727.png" alt="image-20220913233707727" style="zoom:50%;" />
+
+8. 解：
+
+   设三个网孔的电流从左往右依次为 $\vec{I_1}$、$\vec{I_2}$、$\vec{I_3}$，方向为顺时针。
+
+   则有网孔电流方程
+
+   $\begin{cases}	-20\angle60°+40\vec{I_1}+(-j20)(\vec{I_1}-\vec{I_2})=0 \\ (-j20 \times2 +j60)\vec{I_2}-(-j20)\vec{I_1}-(-j20)\vec{I_3}=0 \\ -j20(\vec{I_3}-\vec{I_2})+40\vec{I_3}+10\angle0°=0	\end{cases}$ 
+
+   计算得到 $\begin{cases} \vec{I_1}=(0.01347+j0.3398){\rm A} \\ \vec{I_2}=(0.2-j0.1332){\rm A} \\ \vec{I_3}=(-0.2133-j0.2066){\rm A} \end{cases}$ 
+
+   $\vec{I_o}=\vec{I_2}=(0.2-j0.1332){\rm A}$    
+
+   <img src="./methods.assets/image-20220913171230401.png" alt="image-20220913171230401" style="zoom:50%;" />
+
+9. 解：
+
+   设左、右、上方的三个网孔的电流依次为 ${I_1}$、${I_2}$、${I_3}$，方向为顺时针。
+
+   列网孔电流方程如下
+
+   $\begin{cases}	5I_1-25+5(I_1-I_3)+20(I_1-I_2)=0 \\ 20(I_2-I_1)+4(I_2-I_3)+15I=0 \\ 5(I_3-I_1)+10I_3+4(I_3-I_2)=0 	\end{cases}$ 
+
+   其中，$I=I_1-I_2$ 
+
+   解得：$I=\frac{40}{81},I_1=\frac{155}{81},I_2=\frac{115}{81},I_3=\frac{65}{81}$ 
+
+   <img src="./methods.assets/image-20220913171723945.png" alt="image-20220913171723945" style="zoom:50%;" />
+
 
 
 ## 知识点5：节点电压法
@@ -496,6 +620,18 @@ $$
 10、用节点电压法求下图所示电路中电流源两端的电压 *v* 。
 
 <img src="./methods.assets/2-5-10.png" alt="2-5-10" style="zoom:60%;" />
+
+
+
+11、列出图示电路的节点电压方程,并求 $I$。
+
+<img src="./methods.assets/2-4-9-3060673.png" alt="2-4-9" style="zoom: 50%;" />
+
+
+
+12、如下图所示电路，设 $v_{s1}=40\cos(2000t-36.87°){\rm V}$，$v_{s2}=100\sin(2000t-16.26°){\rm V}$，用节点电压法求 $v_o(t)$ 的稳态表达式。
+
+<img src="./methods.assets/2-5-12.png" alt="2-5-12" style="zoom: 50%;" />
 
 
 
@@ -744,6 +880,36 @@ $$
 
     <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
 
+11. 解：
+
+    考虑到独立电压源的存在，将独立电压源及上方节点看做一个 $supernode$ 。记 $supernode$ 上、下方电压分别为 $v_a$ 和 $v_b$ 。
+
+    以底端节点为参考节点，$supernode$ 右侧的两个节点分别标记为 $v_1$ 和 $v_2$ 。
+
+    列节点电压方程如下：
+
+    $\begin{cases}	\frac{v_a-v_2}{10}+\frac{v_a-v_1}{5}+\frac{v_b}{5}=0 \\ \frac{v_1-v_a}{5}+\frac{v_1-v_2}{4}+\frac{v_1}{20}=0 \\ v_2=15I	\end{cases}$ 
+
+    增补方程 $v_a-v_b=25$ ，$I=\frac{v_1}{20}$ 
+
+    联立解得：
+
+    $v_a=\frac{1250}{81}{\rm V}$，$v_b=\frac{-775}{81}{\rm V}$，$v_1=\frac{800}{81}{\rm V}$，$v_2=\frac{600}{81}{\rm V}$，$I=\frac{40}{81}{\rm A}$ 
+
+12. 解：
+
+    以底端节点作为参考节点，则上方节点电压为 $v_o$ 。
+
+    列节点电压方程
+
+    $\frac{v_o}{20}+\frac{v_o-v_{s1}}{j \omega L}+\frac{v_o-v_{s2}}{\frac{1}{j \omega C}}=0$ 
+
+    其中，$\omega = 2000$，代入 $C,L,v_{s1},v_{s2}$ 计算得：
+
+    $v_o(t)=j\frac{0.4v_{s2}-0.25v_{s1}}{0.05+j0.15}=238.2\angle-102.2°{\rm V}=238.2\cos(2000t-102.2°){\rm V}$ 
+
+    <img src="./methods.assets/image-20220913173751086.png" alt="image-20220913173751086" style="zoom:50%;" />
+
 
 
 ## 知识点6：叠加定理
@@ -790,6 +956,8 @@ A. 电流			B. 电压			C. 功率
 
 
 
+
+
 **参考解答**
 
 1. A
@@ -831,8 +999,8 @@ A. 电流			B. 电压			C. 功率
    ​	  $U_2=(30-30×\frac{3}{3+2})-(30-30×\frac{6}{6+3})=12V-10V=2V$ 
 
    ​	  $U=U_1+U_2=8.4V$ 
-
-
+   
+   
 
 ## 知识点7：戴维南定理
 
@@ -871,6 +1039,16 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
 6、求下图所示单口网络的戴维南等效电路。
 
 <img src="./methods.assets/2-7-6.png" alt="2-7-6" style="zoom:50%;" />
+
+
+
+7、求如图所示电路的戴维南等效电路。
+
+<img src="./methods.assets/image-20220913174043968.png" alt="image-20220913174043968" style="zoom:50%;" />
+
+
+
+
 
 
 
@@ -966,9 +1144,53 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
 
    <img src="./methods.assets/image-20220830164122506.png" alt="image-20220830164122506" style="zoom:50%;" />
 
+7. 解：
+
+   (1)  求开路电压
+
+   ​	  规定顺时针为电流正方向，则根据 KCL 流经 5 Ω 的电流为 $-I_1$ ， 流经 1 Ω 的电流为 $I_1$ ，则有
+
+   ​	  $-12+1 \times I_1+5 \times (-I_1) + 10 \times I_1=0$ 
+
+   ​	  解得：$I_1=2{\rm A}$ 
+
+   ​	  $V_{Th}=10I_1=20{\rm V}$ 
+
+   (2)  求等效电阻
+
+   ​	  在端口施加一电压 $U$ ，独立电压源短路。
+
+   ​	  规定顺时针为电流正方向，则根据 KCL 流经 5 Ω 的电流为 $-(I + I_1)$ ， 流经 1 Ω 的电流为 $I_1 - I$  ，得到：
+
+   ​	  $-12+1 \times (I_1-I)+5 \times (-I-I_1)+10 \times I_1 = 0$ 
+
+   ​	  不妨取 $I=1{\rm A}$，则 $I_1=3A$，$U=10I_1+5I=35{\rm V}$ 
+
+   ​	  $R_{Th}=\frac{U}{I}=35{\Omega}$ 
+
+   (3)  画出戴维南等效电路
+
+   <img src="./methods.assets/解-2-7-7.png" alt="解-2-7-7" style="zoom: 40%;" />
+
+
+
 
 
 ## 知识点8：诺顿定理
+
+1、下图所示电路中，ab 两端的诺顿等效电路是 ________ 。
+
+<img src="./methods.assets/2-8-1.png" alt="2-8-1" style="zoom: 50%;" />
+
+A. <img src="./methods.assets/2-8-1-A.png" alt="2-8-1-A" style="zoom:60%;" />				B. <img src="./methods.assets/2-8-1-B.png" alt="2-8-1-B" style="zoom:60%;" />
+
+C. <img src="./methods.assets/2-8-1-C.png" alt="2-8-1-C" style="zoom:60%;" />				D. <img src="./methods.assets/2-8-1-D.png" alt="2-8-1-D" style="zoom:60%;" />
+
+
+
+ **参考解答**
+
+1. C
 
 
 
@@ -983,6 +1205,12 @@ A. 一定		B. 不一定
 2、下图所示电路中负载电阻 $R_L$ 为何值时获得最大功率。
 
 <img src="./methods.assets/2-9-2.png" alt="2-9-2" style="zoom:67%;" />
+
+
+
+3、当负载获取最大输出功率时，电路的传输效率一定是 ________ 。
+
+A. 100％				B. 50％				C. 25％				D. 不能确定
 
 
 
@@ -1007,3 +1235,5 @@ A. 一定		B. 不一定
    $R_{in}=\frac{v}{i}=\frac{9i_1}{1.5i_1}=6Ω$ 
 
    因此，当 $R_L=R_{in}=6Ω$ 时负载电阻 $R_L$ 可获得最大功率。
+   
+3. D
