@@ -522,7 +522,7 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
    其中，$\omega=1$ 
 
-   电源提供的有功功率为 $P_{Av}=\frac{1}{2}{\rm real}(u_s\times I_1)$
+   电源提供的有功功率为 $P_{Av}=\frac{1}{2}{\rm real}(u_s \cdot I_1^*)$
 
    解得：
 
@@ -532,7 +532,7 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
    电源提供的有功功率为
 
-   $P_{Av}=\frac{1}{2}{\rm real}(u_s\times I_1^*)=2.5{\rm kW}$
+   $P_{Av}=\frac{1}{2}{\rm real}(u_s \cdot I_1^*)=2.5{\rm kW}$
 
    
 
