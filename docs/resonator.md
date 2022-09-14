@@ -120,7 +120,7 @@ A. 容性		B. 感性		C. 阻性		D. 不确定
 
 15、下图是收音机调谐电路的等效电路图，其中 *r* 为电感的内阻。已知电容为100 pF、电感为200 μH，电感的内阻是400 Ω，电路的谐振频率是多少？
 
-<img src="./resonator.assets/5-1-16.png" alt="5-1-16" style="zoom:50%;" />
+<img src="./resonator.assets/5-1-16-3139778.png" alt="5-1-16" style="zoom:50%;" />
 
 
 
@@ -244,7 +244,7 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 
     即  ${\omega _0}C - \frac{{{\omega _0}L}}{{{r^2} + {\omega _0}^2{L^2}}} = 0$ 
 
-    ​	 ${\omega _0} = \sqrt {\frac{1}{{CL}} - \frac{{{r^2}}}{{{L^2}}}} $		${f_0} = \frac{1}{{2\pi }}\sqrt {\frac{1}{{CL}} - \frac{{{r^2}}}{{{L^2}}}} $ 
+    ​	 ${\omega _0} = \sqrt {\frac{1}{{CL}} - \frac{{{r^2}}}{{{L^2}}}}$		${f_0} = \frac{1}{{2\pi }}\sqrt {\frac{1}{{CL}} - \frac{{{r^2}}}{{{L^2}}}}$ 
 
     其中，$C=100{\rm pF},L=200{\rm \mu H}$。
 
@@ -290,7 +290,7 @@ A. 低通滤波器		B. 高通滤波器		C. 带通滤波器		D. 带阻滤波器
 
 5、下图电路的频率响应具有 ________ 。（电容器的电容无限大）
 
-<img src="./resonator.assets/5-2-6.png" alt="5-2-6" style="zoom: 50%;" />
+<img src="./resonator.assets/5-2-6-3140140.png" alt="5-2-6" style="zoom: 50%;" />
 
 A. 低通特性		B. 高通特性		C. 带通特性		D. 带阻特性
 
@@ -299,14 +299,8 @@ A. 低通特性		B. 高通特性		C. 带通特性		D. 带阻特性
 **参考解答**
 
 1. A
-
 2. B
-
 3. D
-
 4. D
-
 5. A
-
-   
 
