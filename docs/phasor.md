@@ -77,7 +77,7 @@
      - 也可以从相量计算 $\frac{1}{2} \textbf{Re}[\textbf{V} \textbf{I}^*]$
    - 最大功率传输：
      - 共轭匹配；
-     - 若负载指定为纯电阻，则匹配阻值为戴维南阻抗的**幅度，而非实部**；
+     - 若负载指定为纯电阻，则匹配阻值为戴维南阻抗的**模，而非实部**；
    - **复功率**（$\textbf{S}$）：电压相量和电流相量共轭的乘积，系数0.5，即 $\textbf{S} = \frac{1}{2} \textbf{V} \textbf{I}^* = \textbf{V}_{rms} \textbf{I}^*_{rms}$ ，单位 VA
    - **视在功率**（$S$）：复功率的模， 单位 VA
    - **有功功率**（$P$）：即平均功率，是复功率的实部，单位 W
@@ -146,17 +146,64 @@ C. $u(t) = 21.21\cos(50t+26°)$      D. $u(t) = 21.21\cos(314t+26°)$
 
 
 
+10、已知两个支路的电流分别可表示为 $i_1(t)=10\cos(100πt+\frac{3\pi}{4})$，$i_2(t)=10\cos(100πt-\frac{\pi}{2})$，比较两者的相位，前者 ________ （超前/滞后）后者 ________ 度。
+
+
+
+11、两同频率的正弦电压可表示为 $v_1=-10\sin(\omega t+30°){\rm V}$，$v_2=4\cos(\omega t+60°){\rm V}$，则它们的相位差为 ________ 。
+
+A. 30°		B. 60°		C. 120°		D. 150°
+
+
+
+12、(1)  根据下图的相量图，求 $\vec{V_1}+\vec{V_2}$ 的相量；
+
+​		(2)  正弦变量 $v_s=-10\sin(\omega t -\pi/3)$ 对应的相量为？
+
+<img src="./phasor.assets/3-1-13.png" alt="3-1-13" style="zoom: 50%;" />
+
+
+
+
+
 **参考解答**
 
 1. C，对于正弦波，有效值为峰值的 $\frac{1}{\sqrt{2}}$; 3dB 表示半功率，也即电压幅度为峰值$\frac{1}{\sqrt{2}}$
+
 2. B      D
+
 3. A      D
+
 4. 135°      $i_1$ ， 将 $i_2$ 转换成 $\cos$ 形式后再比较
+
 5. D
+
 6. 幅值      角频率      初相位
+
 7. 超前      120
+
 8. B
+
 9. D
+
+10. 滞后      135
+
+11. B
+
+12. (1)  方法1：图解法
+
+    <img src="./phasor.assets/image-20220914085622778.png" alt="image-20220914085622778" style="zoom:50%;" />
+
+    ​	  由图可得：$\vec{V}=\vec{V_1}+\vec{V_2}=6\angle0°{\rm V}$ 
+
+    ​	  方法2：
+
+    ​	  由图可知：$\vec{V_1}=(4+j4){\rm V}$，$\vec{V_2}=(-4+j2){\rm V}$ 
+
+    ​	  故而，$\vec{V}=\vec{V_1}+\vec{V_2}=6{\rm V}=6\angle0°{\rm V}$ 
+
+    (2)  $v_s=-10\sin(\omega t -\pi/3)=10\cos(\omega t+\pi/6)=10\angle30°{\rm V}$ 
+
 
 
 
@@ -192,14 +239,65 @@ A.$\frac{R~1~}{R~3~}=\frac{C~4~}{C~2~}$ 	B.$\frac{R~1~}{R~3~}=\frac{C~2~}{C~4~}$
 
 
 
+7、下图中，若电流 $i=\cos(4t)$，电压 $v=\sin(4t)$，那么该元件是 ________ 。
+
+<img src="./phasor.assets/3-2-8.png" alt="3-2-8" style="zoom:50%;" />
+
+A. 电感				B. 电容				C. 电阻
+
+
+
+8、下图所示电桥的平衡条件是 ________ 。
+
+<img src="./phasor.assets/3-2-9.png" alt="3-2-9" style="zoom:50%;" />
+
+A. $\frac{R_1}{R_4}=\frac{C_3}{C_2}$		B. $\frac{R_1}{R_4}=\frac{C_2}{C_3}$		C. $R_1R_4=C_2C_3$		D. 无法平衡
+
+
+
+9、下图所示电路中，$i_S=(2+4\cos10t){\rm A}$，通过 $10{\rm \Omega}$ 电阻电流的有效值应为<u>__  __</u>。
+
+<img src="./phasor.assets/3-2-10.png" alt="3-2-10" style="zoom: 50%;" />
+
+A. 4 A				B. $2\sqrt{2}{\rm A}$				C. $\sqrt{12}{\rm A}$				D. 2 A
+
+
+
+10、若 *RC* 串联电路对频率为 100 Hz 的正弦波的阻抗为 (4 - j16) Ω，则该串联电路对频率为 400 Hz 的正弦波的阻抗为 ________ 。
+
+
+
+11、下图为三个阻抗串联的电路：$Z_1=5\angle30°\Omega$，$Z_2=4\angle60°\Omega$，$Z_3= (3+j3) \Omega$，外加电压 $\vec{U_{AB}}=10\angle0°{\rm V}$。求电流及各阻抗上的电压。
+
+<img src="./phasor.assets/3-2-12.png" alt="3-2-12" style="zoom: 50%;" />
+
+
+
+
+
 **参考解答**
 
-1.  A
-1.  $‒ 50\sin(100 t + 30°)$ mA 或 $50\cos(100 t +120°)$ mA
-1.  (2 - j2) Ω
-1.  (1 + j) Ω      (1 - j) S
-1.  (3 - j3) Ω
-1.  1.131∠81.87° A
+1. A
+1. $‒ 50\sin(100 t + 30°)$ mA 或 $50\cos(100 t +120°)$ mA
+1. (2 - j2) Ω
+1. (1 + j) Ω      (1 - j) S
+1. (3 - j3) Ω
+1. 1.131∠81.87° A
+1. B
+1. D
+1. B
+1. (4 - j4) Ω
+1. 解：
+
+   $\vec{I}=\frac{\vec{U_{AB}}}{Z_1+Z_2+Z_3}=0.7729\angle-43.85°{\rm A}$ 
+
+   $\vec{U_1}=\vec{I} \times Z_1=3.864\angle-13.85°{\rm V}$ 
+
+   $\vec{U_2}=\vec{I} \times Z_2=3.092\angle16.15°{\rm V}$ 
+
+   $\vec{U_3}=\vec{I} \times Z_3=3.279\angle1.146°{\rm V}$ 
+
+   
 
 
 
@@ -230,6 +328,20 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
 <img src="./phasor.assets/3-3--5.png" alt="3-3--5" style="zoom:60%;" />
 
 
+
+5、下图中，ab 左侧部分可用诺顿等效电路等效，求
+
+(1)  诺顿等效电流源 $I_N$ 和等效阻抗 $Z_N$；
+
+(2)  $I_o$。
+
+<img src="./phasor.assets/3-3-6.png" alt="3-3-6" style="zoom: 50%;" />
+
+
+
+6、计算输出电阻 Z 。
+
+<img src="./phasor.assets/3-3-7.png" alt="3-3-7" style="zoom: 50%;" />
 
 
 
@@ -302,6 +414,36 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
    (3) 时域叠加
 
    综上，$i_C(t)=[1.414\cos(1000t+45°)+0.4\sin(\frac{4000}{3}t+36.87°)] \rm{A}$ 
+
+5. 解：
+
+   (1)  输出端短路，求 $I_N$。
+
+   ​	  $I_N=4\angle-90° \times \frac{8}{8+(1-j3)}+\frac{20\angle0°}{(4+j2)||(8+1-j3)}=(\frac{106}{15}-j\frac{68}{15}){\rm A}=8.396\angle-32.68°$ 
+
+   (2)  独立源置零，在端口处施加一 1∠0° V 的电压，求等效阻抗 $Z_N$。
+
+   ​	  $Z_N=(4+j2)||(8+1-j3)=3.244\angle12.53°$ 
+
+6. 解：
+
+   对左上方小 $\Delta$ 电阻网络和下方小 $\Delta$ 电容网络使用 $\Delta \rightarrow Y$ 转换，得到：
+
+   <img src="./phasor.assets/解-3-3-7.png" alt="解-3-3-7" style="zoom: 50%;" />
+
+   那么可以得到，电路的等效输出阻抗为
+
+   $Z=5+(5-j3)||[5+(j6)||(j6+j6)-j3]-j3$ 
+
+   ​	 $=5+(5-j3)||(5+j4-j3)-j3$ 
+
+   ​	 $=5+(\frac{75}{26}-j\frac{11}{26})-j3$ 
+
+   ​	 $=(\frac{205}{26}-j\frac{89}{26}){\rm \Omega}$ 
+
+   ​	 $=(7.885-j3.423){\rm \Omega}$ 
+
+   
 
 
 
@@ -417,6 +559,24 @@ C.  线路电压降增大					D. 不影响电网企业经济效益
 (2) 该单口网络的平均功率和功率因数。
 
 <img src="./phasor.assets/3-4-19.png" alt="3-4-19" style="zoom:50%;" />
+
+
+
+20、系统提高功率因数后，对于负载来说理论上保持不变的参量是 ________ 。
+
+A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
+
+
+
+21、电路如图所示，求出获得最大功率的纯电阻 $Z_L$ 。
+
+<img src="./phasor.assets/3-4-21.png" alt="3-4-21" style="zoom: 50%;" />
+
+
+
+22、电路中 $R_1=R_2=100{\rm \Omega}$，$L_1=L_2=1{\rm H}$，$C=100{\rm \mu F}$，$\vec{V_s}=100\angle0°{\rm V}$，$\omega=100{\rm rad/s}$。求 $Z_L$ 获得的最大功率。
+
+<img src="./phasor.assets/3-4-22.png" alt="3-4-22" style="zoom: 50%;" />
 
 
 
@@ -556,6 +716,68 @@ C.  线路电压降增大					D. 不影响电网企业经济效益
     ​		功率因数：$λ=cos45°=\frac{\sqrt{2}}{2}≈0.707$ ，电感性
 
     <img src="./phasor.assets/image-20220905194924160.png" alt="image-20220905194924160" style="zoom:50%;" />
+
+20. A
+
+21. 解：
+
+    对端口 ab 进行戴维南等效，得到：
+
+    $V_{Th}=20\angle0° \times \frac{20||(j3-j6)}{5+[20||(j3-j6)]}\times \frac{-j6}{j3-j6}=(11.52-j15.36){\rm V}$ 
+
+    $R_{Th}=[(5||20)+j3]||(-j6)=(5.76-j1.68){\rm \Omega}$ 
+
+    根据最大功率传输定理，获取最大功率的纯电阻 $Z_L$ 满足
+
+    $Z_L=|R_{Th}|=6{\rm \Omega}$ 
+
+22. 解：
+
+    (1)  对除负载 $Z_L$ 外的电路做戴维南等效：
+
+    ​	  电容 $C$ 两端的电压为 $\vec{V_{C}}=\vec{I_C} \times \frac{1}{j\omega C}$ 
+
+    ​	  流经 $L_2$ 的电流为 $\vec{I_{L_2}}=\vec{I_{R_2}}=\frac{\vec{V_C}}{j\omega L_2}$ 
+
+    ​	  流经 $R_1$ 的电流为 $\vec{I_{R_1}}=\frac{\vec{V_s}-\vec{V_C}}{R_1}$ 
+
+    ​	  根据 KCL 定律，有
+
+    ​	  $-\vec{I_{R_1}}+\frac{\vec{V_C}}{j\omega L_1}+\vec{I_C}+\vec{I_{L_2}}=0 \Rightarrow (\frac{1}{R_1}+\frac{1}{j\omega L_1}+j\omega C+\frac{1}{j\omega L_2})\vec{V_C}=\frac{\vec{V_s}}{R_1}$ 
+
+    ​	  解得：$\vec{V_C}=50\sqrt{2}\angle45°{\rm V}$ 
+
+    ​	  故而	$\vec{V_{Th}}=R_2\times \frac{\vec{V_C}}{j\omega L_2}=50\sqrt{2}\angle-45°{\rm V}$ 
+
+    (2)  电压源短路，在外施加一大小为 1 V 的电压，求等效电阻：
+
+    ​	  以底端节点作为参考节点，则上方节点电压从左至右依次为为 $\vec{V_1}$，$\vec{V_2}$。
+
+    ​	  列节点电压方程
+
+    ​	  $\frac{\vec{V_1}}{R_1} +\frac{\vec{V_1}}{j\omega L_1}+\frac{\vec{V_1}-\vec{V_2}}{j\omega L_2}+\vec{I_C}=0$ 
+
+    ​	  $\vec{V_2}=1$ 
+
+    ​	  其中，$\vec{I_C}=\frac{\vec{V_1}-\vec{V_2}}{\frac{1}{j\omega C}}$ 
+
+    ​	  解得：$\vec{V_1}=0.5{\rm V}$，$\vec{I_C}=-j5{\rm mA}$ 
+
+    ​	  			$\vec{I}=\frac{\vec{V_2}}{R_2}+\frac{\vec{V_2}-\vec{V_1}}{j\omega L_2}=\frac{1-j0.5}{100}{\rm A}$ 
+
+    ​	  得到：$R_{Th}=\frac{100}{1-j0.5}=40\sqrt{5}\angle26.57°{\rm \Omega}$ 
+
+    (3)  当 $Z_L=R_{Th}^*=40\sqrt{5}\angle-26.57°{\rm \Omega}$ 时，有最大功率
+
+    ​		   $I_L=\frac{V_{Th}}{R_{Th}+Z_L}=0.4420\angle-45°{\rm A}$ 
+
+    ​		   $V_L=I_L \cdot Z_L=39.53\angle-71.57°{\rm V}$ 
+
+    ​		   $P=V_L \cdot I_L^*=17.47\angle-26.57°{\rm W}$ 
+
+    ​	  故而负载上的最大平均功率为
+
+    ​	  	 $P_{Av}=15.62{\rm W}$ 
 
 
 
