@@ -524,6 +524,16 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
    电源提供的有功功率为 $P_{Av}=\frac{1}{2}{\rm real}(u_s\times I_1)$
 
+   解得：
+
+   $I_1=\frac{u_s}{1+j}=\frac{100\angle15°}{1+j}=50\sqrt{2}\angle-30°{\rm A}$
+
+   $I_2=0{\rm A}$
+
+   电源提供的有功功率为
+
+   $P_{Av}={\rm real}(u_s\times I_1)={\rm real}(5000\sqrt{2}\angle-15°)=6.83{\rm kW}$
+
    
 
    
