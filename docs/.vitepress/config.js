@@ -60,7 +60,8 @@ function sidebarEC() {
         { text: '频率响应', link: '/freq' },
         { text: '反馈', link: '/feedbak' },
         { text: '功率放大器', link: '/pa' },
-        { text: '运算放大器', link: '/opam' }
+        { text: '运算放大器', link: '/opam' },
+        { text: '综合', link: '/int'}
       ]
     }
   ]
