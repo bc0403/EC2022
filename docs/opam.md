@@ -325,7 +325,7 @@ C. $v_o=8(v_{i2}-v_{i1})$ 				D. $v_o=4(v_{i1}+v_{i2})$
 
 16. 解：
 
-    <img src="./opam.assets/image-20221006202535021.png" alt="image-20221006202535021" style="zoom:50%;" />
+    <img src="./opam.assets/image-20221006202535021.png" alt="image-20221006202535021" style="zoom:40%;" />
 
     $R_i=R_1$，取 $R_1=100{\rm k \Omega}$ 
 
@@ -379,13 +379,13 @@ C. $v_o=8(v_{i2}-v_{i1})$ 				D. $v_o=4(v_{i1}+v_{i2})$
 
     则要求 $\frac{{{R_f}}}{{{R_1}}} = 15,{\rm{ }}\frac{{{R_f}}}{{{R_2}}} = 6$ 
 
-    选取 ${R_f} = 30{\rm{ k}}\Omega ,{\rm{ }}{R_1} = 2{\rm{ k}}\Omega ,{\rm{ }}{R_2} = 5{\rm{ k}}\Omega ,{\rm{ }}{R_3} = 3{\rm{ k}}\Omega $ 
+    选取 ${R_f} = 30{\rm{ k}}\Omega ,{\rm{ }}{R_1} = 2{\rm{ k}}\Omega ,{\rm{ }}{R_2} = 5{\rm{ k}}\Omega ,{\rm{ }}{R_3} = 3{\rm{ k}}\Omega$ 
 
     
 
 21. 解：
 
-    (1)	运放 A~1~ 的输出电压
+    (1)	运放 $A_1$ 的输出电压
 
     ​		${v_{{\rm{o1}}}} =  - \frac{{{R_2}}}{{{R_1}}}{v_{\rm{i}}} - \frac{{{R_2}}}{{{R_3}}}{v_{\rm{o}}} =  - {v_{\rm{i}}} - \frac{{{R_2}}}{{{R_3}}}{v_{\rm{o}}}$ 
 
