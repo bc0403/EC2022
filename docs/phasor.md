@@ -194,13 +194,13 @@ A. 30°		B. 60°		C. 120°		D. 150°
 
     <img src="./phasor.assets/image-20220914085622778.png" alt="image-20220914085622778" style="zoom:50%;" />
 
-    ​	  由图可得：$\vec{V}=\vec{V_1}+\vec{V_2}=6\angle0°{\rm V}$ 
+    ​	  由图可得：$\vec{V}=\vec{V_1}+\vec{V_2}=6\angle90°{\rm V}$ 
 
     ​	  方法2：
 
-    ​	  由图可知：$\vec{V_1}=(4+j4){\rm V}$，$\vec{V_2}=(-4+j2){\rm V}$ 
+    ​	  由图可知：$\vec{V_2}=(4+j4){\rm V}$，$\vec{V_1}=(-4+j2){\rm V}$ 
 
-    ​	  故而，$\vec{V}=\vec{V_1}+\vec{V_2}=6{\rm V}=6\angle0°{\rm V}$ 
+    ​	  故而，$\vec{V}=\vec{V_1}+\vec{V_2}=j6{\rm V}=6\angle90°{\rm V}$ 
 
     (2)  $v_s=-10\sin(\omega t -\pi/3)=10\cos(\omega t+\pi/6)=10\angle30°{\rm V}$ 
 
@@ -733,23 +733,29 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
 
 22. 解：
 
-    (1)  对除负载 $Z_L$ 外的电路做戴维南等效：
+    (1)  方法1：对除负载 $Z_L$ 外的电路做戴维南等效：
 
-    ​	  电容 $C$ 两端的电压为 $\vec{V_{C}}=\vec{I_C} \times \frac{1}{j\omega C}$ 
+    ​	  记流经 $R_2$ 的电流为 $\vec{I}$ ，方向为由上至下；以底端节点作为参考节点。
 
-    ​	  流经 $L_2$ 的电流为 $\vec{I_{L_2}}=\vec{I_{R_2}}=\frac{\vec{V_C}}{j\omega L_2}$ 
+    ​	  则电容右侧节点电压为 $\vec{I}R_2$ ，左侧节点为 $\vec{I}R_2+\vec{I_C}\times\frac{1}{j\omega C}$；流经 $L_2$ 的电流为 $\vec{I}$，方向从左至右。
 
-    ​	  流经 $R_1$ 的电流为 $\vec{I_{R_1}}=\frac{\vec{V_s}-\vec{V_C}}{R_1}$ 
+    ​	  对左侧节点列 KCL 方程，有
 
-    ​	  根据 KCL 定律，有
+    ​	  $\frac{\vec{I}R_2+\vec{I_C}\times\frac{1}{j\omega C}-\vec{V_s}}{R_1}+\frac{\vec{I}R_2+\vec{I_C}\times\frac{1}{j\omega C}}{j\omega L_1}+\vec{I_C}+\vec{I}=0$ 
 
-    ​	  $-\vec{I_{R_1}}+\frac{\vec{V_C}}{j\omega L_1}+\vec{I_C}+\vec{I_{L_2}}=0 \Rightarrow (\frac{1}{R_1}+\frac{1}{j\omega L_1}+j\omega C+\frac{1}{j\omega L_2})\vec{V_C}=\frac{\vec{V_s}}{R_1}$ 
+    ​	  根据 $\vec{V_C}=\vec{V_{L_2}}$ ，得到增补方程：
 
-    ​	  解得：$\vec{V_C}=50\sqrt{2}\angle45°{\rm V}$ 
+    ​	  $\vec{I_C}\times\frac{1}{j\omega C}=\vec{I}\times(j\omega L_2)$ 
 
-    ​	  故而	$\vec{V_{Th}}=R_2\times \frac{\vec{V_C}}{j\omega L_2}=50\sqrt{2}\angle-45°{\rm V}$ 
+    ​	  联立得到：
 
-    (2)  电压源短路，在外施加一大小为 1 V 的电压，求等效电阻：
+    ​	  $\vec{I}\times[1+\frac{L_2}{L_1}+\frac{R_2}{R_1}+\frac{j\omega L_2}{R_1}+\frac{R_2}{j\omega L_1}+(j\omega C)(j\omega L_2)]=\frac{\vec{V_s}}{R_1} \Rightarrow \vec{I}=\frac{1}{2}\angle0°{\rm A}$  
+
+    ​	  故而	$\vec{V_{Th}}=R_2\times \vec{I}=50\angle0°{\rm V}$ 
+
+    ​    方法2： $L_2$和$C$构成开路，用分压计算
+
+    (2)  电压源短路，在外施加一大小为 $1\angle0°{\rm V}$ 的电压，求等效电阻：
 
     ​	  以底端节点作为参考节点，则上方节点电压从左至右依次为为 $\vec{V_1}$，$\vec{V_2}$。
 
@@ -757,27 +763,27 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
 
     ​	  $\frac{\vec{V_1}}{R_1} +\frac{\vec{V_1}}{j\omega L_1}+\frac{\vec{V_1}-\vec{V_2}}{j\omega L_2}+\vec{I_C}=0$ 
 
-    ​	  $\vec{V_2}=1$ 
+    ​	  $\vec{V_2}=1\angle0°$ 
 
     ​	  其中，$\vec{I_C}=\frac{\vec{V_1}-\vec{V_2}}{\frac{1}{j\omega C}}$ 
 
-    ​	  解得：$\vec{V_1}=0.5{\rm V}$，$\vec{I_C}=-j5{\rm mA}$ 
+    ​	  解得：$\vec{V_1}=0{\rm V}$，$\vec{V_2}=1\angle0{\rm V}°$，$\vec{I_C}=-j10{\rm mA}$ 
 
-    ​	  			$\vec{I}=\frac{\vec{V_2}}{R_2}+\frac{\vec{V_2}-\vec{V_1}}{j\omega L_2}=\frac{1-j0.5}{100}{\rm A}$ 
+    ​	  			$\vec{I_i}=\frac{\vec{V_2}}{R_2}+\frac{\vec{V_2}-\vec{V_1}}{j\omega L_2}=\frac{1-j}{100}{\rm A}$ 
 
-    ​	  得到：$R_{Th}=\frac{100}{1-j0.5}=40\sqrt{5}\angle26.57°{\rm \Omega}$ 
+    ​	  得到：$R_{Th}=\frac{100}{1-j}=50\sqrt{2}\angle45°{\rm \Omega}$ 
 
-    (3)  当 $Z_L=R_{Th}^*=40\sqrt{5}\angle-26.57°{\rm \Omega}$ 时，有最大功率
+    (3)  当 $Z_L=R_{Th}^*=50\sqrt{2}\angle-45°{\rm \Omega}=(50-j50){\rm \Omega}$ 时，有最大功率
 
-    ​		   $I_L=\frac{V_{Th}}{R_{Th}+Z_L}=0.4420\angle-45°{\rm A}$ 
+    ​		   $\vec{I_L}=\frac{\vec{V_{Th}}}{R_{Th}+Z_L}=\frac{1}{2}\angle0°{\rm A}$ 
 
-    ​		   $V_L=I_L \cdot Z_L=39.53\angle-71.57°{\rm V}$ 
-
-    ​		   $P=V_L \cdot I_L^*=17.47\angle-26.57°{\rm W}$ 
-
+    ​		   $\vec{V_L}=\vec{I_L} \cdot Z_L=25\sqrt{2}\angle-45°{\rm V}$ 
+    
+    ​		   $\vec{S}=\frac{1}{2} \vec{V_L} \cdot \vec{I_L}^*=\frac{25\sqrt{2}}{4} \angle-45°{\rm W}$ 
+    
     ​	  故而负载上的最大平均功率为
-
-    ​	  	 $P_{Av}=15.62{\rm W}$ 
+    
+    ​	  	 $P_{Av}=6.25{\rm W}$ 
 
 
 
