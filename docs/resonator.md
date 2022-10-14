@@ -140,6 +140,20 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 
 
 
+19、如图所示的串联谐振电路，$R=4$ $\Omega$, $L=25$ mH，品质因数为50, (a) 求 $C$; (b) 求 $\omega_1$, $\omega_2$, $B$；(c) 若 $V_m = 100$ V，求频率为 $\omega_0$, $\omega_1$, $\omega_2$ 时消耗的平均功率
+
+
+
+20、并联谐振电路如下图所示，其中 $R=100$ k$\Omega$, $L=50$ mH, $C=2$ nF，求 $\omega_0$, $\omega_1$, $\omega_2$, $Q$, $B$
+
+<img src="./resonator.assets/image-20221014191934783.png" alt="image-20221014191934783" style="zoom:50%;" />
+
+21、求以下电路的谐振频率
+
+<img src="./resonator.assets/image-20221014192055516.png" alt="image-20221014192055516" style="zoom:50%;" />
+
+
+
 **参考解答**
 
 1. D
@@ -187,16 +201,16 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 9. $\frac{1}{2π\sqrt{LC}}$        $\frac{2πf_0L}{R}$        $\frac{1}{2πf_0RC}$ 
 
 10. 解：
-   $$
-   \begin{cases}
-   w_0 = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{10^{-2}×10^{-6}}} = 10^4rad/s = 10 krad/s \\
-   Q = \frac{w_0L}{R} = 10 \\
-   B = \frac{w_0}{Q} = 1 krad/s \\
-   w_1 = w_0 - \frac{B}{2} ⇒ w_1 = 9.5 krad/s \\
-   w_2 = w_0 + \frac{B}{2} ⇒ w_1 = 10.5 krad/s
-   \end{cases}
-   $$
-   根据严格公式计算： $w_1=9.512krad/s,w_2=10.512krad/s$ 
+  $$
+  \begin{cases}
+  w_0 = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{10^{-2}×10^{-6}}} = 10^4rad/s = 10 krad/s \\
+  Q = \frac{w_0L}{R} = 10 \\
+  B = \frac{w_0}{Q} = 1 krad/s \\
+  w_1 = w_0 - \frac{B}{2} ⇒ w_1 = 9.5 krad/s \\
+  w_2 = w_0 + \frac{B}{2} ⇒ w_1 = 10.5 krad/s
+  \end{cases}
+  $$
+  根据严格公式计算： $w_1=9.512krad/s,w_2=10.512krad/s$ 
 
 11. 解：
 
@@ -256,7 +270,13 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 
 18. B
 
-    
+19. <img src="./resonator.assets/image-20221014191707670.png" alt="image-20221014191707670" style="zoom:30%;" />
+
+20. <img src="./resonator.assets/image-20221014192000749.png" alt="image-20221014192000749" style="zoom:35%;" />
+
+21. <img src="./resonator.assets/image-20221014192124702.png" alt="image-20221014192124702" style="zoom:30%;" />
+
+      
 
 ## 知识点2：滤波器
 
@@ -296,6 +316,12 @@ A. 低通特性		B. 高通特性		C. 带通特性		D. 带阻特性
 
 
 
+6、下图为带通滤波器电路，已经 3dB 截止频率为 20.1 kHz 和 20.3 kHz，若 $R=30$ k$\Omega$, 求 $L$, $C$, $Q$
+
+<img src="./resonator.assets/image-20221014192332342.png" alt="image-20221014192332342" style="zoom:50%;" />
+
+
+
 **参考解答**
 
 1. A
@@ -303,4 +329,5 @@ A. 低通特性		B. 高通特性		C. 带通特性		D. 带阻特性
 3. D
 4. D
 5. A
+6. <img src="./resonator.assets/image-20221014192349995.png" alt="image-20221014192349995" style="zoom:40%;" />
 

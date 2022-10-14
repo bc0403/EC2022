@@ -80,10 +80,17 @@ A. 产生		B. 吸收		C. 与元件类型有关		D. 无法判断
 
 
 
+3、计算下列电路中每个元件消耗的或提供的功率，并验证功率守恒。
+
+<img src="./concepts.assets/image-20221014135332895.png" alt="image-20221014135332895" style="zoom:50%;" />
+
+
+
 **参考解答**
 
 1. A
 2. A
+3. <img src="./concepts.assets/image-20221014135455079.png" alt="image-20221014135455079" style="zoom:50%;" />
 
 
 
@@ -109,13 +116,26 @@ C. 电容和电感的储能均不能突变			D. 以上都不对
 
 
 
+4、求下图中每个电容两端的电压
+
+<img src="./concepts.assets/image-20221014142401350.png" alt="image-20221014142401350" style="zoom:50%;" />
+
+
+
+5、求下图中的电容电压、电感电流，以及电容电压的储能
+
+<img src="./concepts.assets/image-20221014142541600.png" alt="image-20221014142541600" style="zoom:50%;" />
+
+
+
 **参考解答**
 
 1. A    B
 2. D
 3. D
+4. <img src="./concepts.assets/image-20221014142422374.png" alt="image-20221014142422374" style="zoom:40%;" />
 
-
+5. <img src="./concepts.assets/image-20221014142607666.png" alt="image-20221014142607666" style="zoom:40%;" />
 
 ## 知识点3：基尔霍夫定律
 
@@ -137,15 +157,27 @@ C. 能量守恒和能量守恒	D. 能量守恒和电荷守恒
 
 A. 4 A		B. 16 A		C. $-4$ A		D. $-6$ A
 
+4、分析电路，求$v_x$和$v_o$
 
+<img src="./concepts.assets/image-20221014135801895.png" alt="image-20221014135801895" style="zoom:50%;" />
+
+5、分析电路，求$v_o$, $i_o$
+
+<img src="./concepts.assets/image-20221014135945373.png" alt="image-20221014135945373" style="zoom:50%;" />
+
+6、分析电路，求图中标示的所有电压电流
+
+<img src="./concepts.assets/image-20221014140114854.png" alt="image-20221014140114854" style="zoom:50%;" />
 
 **参考解答**
 
 1. D
 2. 电荷守恒    能量守恒
 3. C
+4. <img src="./concepts.assets/image-20221014135844517.png" alt="image-20221014135844517" style="zoom:50%;" />
 
-
+5. <img src="./concepts.assets/image-20221014140014802.png" alt="image-20221014140014802" style="zoom:50%;" />
+6. <img src="./concepts.assets/image-20221014140152713.png" alt="image-20221014140152713" style="zoom:50%;" />
 
 ## 知识点4：其他
 

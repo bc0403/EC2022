@@ -343,6 +343,22 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
 
 <img src="./phasor.assets/3-3-7.png" alt="3-3-7" style="zoom: 50%;" />
 
+7、请使用节点电压法，分析下面电路，计算 $v_1$ 和 $v_2$
+
+<img src="./phasor.assets/image-20221014173526679.png" alt="image-20221014173526679" style="zoom:50%;" />
+
+8、计算下图中的电流 $I_o$
+
+<img src="./phasor.assets/image-20221014173721582.png" alt="image-20221014173721582" style="zoom:50%;" />
+
+9、采用叠加定理分析以下电路，计算 $v_o$
+
+<img src="./phasor.assets/image-20221014173933407.png" alt="image-20221014173933407" style="zoom:50%;" />
+
+10、下面电路中，求 $ab$ 端的戴维南等效电路
+
+<img src="./phasor.assets/image-20221014174134916.png" alt="image-20221014174134916" style="zoom:50%;" />
+
 
 
 **参考解答**
@@ -443,7 +459,13 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
 
    ​	 $=(7.885-j3.423){\rm \Omega}$ 
 
-   
+7. <img src="./phasor.assets/image-20221014173612274.png" alt="image-20221014173612274" style="zoom:40%;" />
+
+8. <img src="./phasor.assets/image-20221014173756350.png" alt="image-20221014173756350" style="zoom:35%;" />
+
+9. <img src="./phasor.assets/image-20221014174000841.png" alt="image-20221014174000841" style="zoom:40%;" />
+
+10. <img src="./phasor.assets/image-20221014174212200.png" alt="image-20221014174212200" style="zoom:40%;" />
 
 
 
@@ -578,7 +600,15 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
 
 <img src="./phasor.assets/3-4-22.png" alt="3-4-22" style="zoom: 50%;" />
 
+23、下面电路中，分析 $Z_L$ 取何值时，可以获得最大功率，该最大功率是多少
 
+<img src="./phasor.assets/image-20221014174456387.png" alt="image-20221014174456387" style="zoom:50%;" />
+
+24、某一负载上的电压为 $V_{rms} = 110\angle85^\circ$V，电流为 $I_{rms} = 3 \angle 15^\circ$ A，试求(a)复功率和视在功率；(b)有功功率和无功功率；(c)功率因数和负载阻抗
+
+
+
+25、某负载的无功功率为 140 kVAR，功率因数为0.85 lagging，求并联多大的电容，可以使功率因数校正到1。假设220V (rms)，60Hz供电。
 
 
 
@@ -784,6 +814,10 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
     ​	  故而负载上的最大平均功率为
     
     ​	  	 $P_{Av}=6.25{\rm W}$ 
+
+23. <img src="./phasor.assets/image-20221014174532290.png" alt="image-20221014174532290" style="zoom:40%;" />
+24. <img src="./phasor.assets/image-20221014182739587.png" alt="image-20221014182739587" style="zoom:40%;" />
+25. <img src="./phasor.assets/image-20221014183138283.png" alt="image-20221014183138283" style="zoom:35%;" />
 
 
 

@@ -168,7 +168,17 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
 
 
+14、下图中，开关在 $t=0$ 时刻断开，求 $t \geq 0$ 时的 $v(t)$ 和 $t=0$ 时刻电容的储能 $w_C(0)$
 
+<img src="./transition.assets/image-20221014155913169.png" alt="image-20221014155913169" style="zoom:50%;" />
+
+15、下图中，开关在 $t=0$ 时刻闭合，求 $t \geq 0$ 时的 $v(t)$ ，并计算 $t=0.5s$时刻的 $v(t)$ 值
+
+<img src="./transition.assets/image-20221014160351448.png" alt="image-20221014160351448" style="zoom:50%;" />
+
+16、下图中，开关在 $t=0$ 时刻闭合，求全时刻的 $i(t)$ 和 $v(t)$
+
+<img src="./transition.assets/image-20221014160624696.png" alt="image-20221014160624696" style="zoom:50%;" />
 
 **参考解答**
 
@@ -203,43 +213,43 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
    <img src="./transition.assets/image-20220906084437139.png" alt="image-20220906084437139" style="zoom:60%;" />
 
 
-   $$
+$$
    v_s=10ε(t)-10ε(t-0.5) 
-   $$
+$$
 
-   $$
+$$
    τ=RC=5×10^{3}×100×10^{-6}=0.5s
-   $$
+$$
 
    
 
    该电路的单位阶跃响应为
-   $$
+$$
    v_C(t)=(1-e^{-2t})ε(t) 
-   $$
+$$
 
-   $$
+$$
    i_C=C\frac{dv_C}{dt}=\frac{1}{5}e^{-2t}ε(t)(mA)
-   $$
+$$
 
    
 
    由齐次性和叠加性得实际响应为：
-   $$
+$$
    i_C=5×[\frac{1}{5}e^{-2t}ε(t)-\frac{1}{5}e^{-2(t-0.5)}ε(t-0.5)]=e^{-2t}ε(t)-e^{-2(t-0.5)}ε(t-0.5)(mA)
-   $$
+$$
 
 
    另外，也可以分段表示结果：
 
    $0<t<0.5,ε(t)=1,ε(t-0.5)=0$ 
-   $$
+$$
    i_C=e^{-2t}(mA)
-   $$
+$$
    $t>0.5,ε(t)=1,ε(t-0.5)=1$ 
-   $$
+$$
    i_C=e^{-2t}-e^{-2(t-0.5)}=e^{-2(t-0.5)}(e^{-1}-1)=-0.632e^{-2(t-0.5)}(mA)
-   $$
+$$
 
 5. C。$i(0)$ 和时间常数不变，$i(\infty)$ 加倍，写成三要素表示形式，可获得结果
 
@@ -362,7 +372,13 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
     ​	  $i(t)=i(\infty)+[i(2^+)-i(\infty)]e^{-\frac{t-2}{\tau}}=[3.6-1.6e^{-5(t-2)}]{\rm A},t≥2$ 
 
+14. <img src="./transition.assets/image-20221014155952427.png" alt="image-20221014155952427" style="zoom:40%;" />
 
+15. <img src="./transition.assets/image-20221014160429061.png" alt="image-20221014160429061" style="zoom:40%;" />
+
+16. <img src="./transition.assets/image-20221014160706569.png" alt="image-20221014160706569" style="zoom:40%;" />
+
+    
 
 
 ## 知识点2：二阶电路的响应
@@ -411,7 +427,21 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
 <img src="./transition.assets/4-2-8.png" alt="4-2-8" style="zoom:50%;" />
 
+8、下图中，开关在 $t=0$ 时刻从 $a$ 切换到 $b$ ，求 $t>0$ 时刻的 $i(t)$
 
+<img src="./transition.assets/image-20221014162506324.png" alt="image-20221014162506324" style="zoom:50%;" />
+
+9、下图中，求  $t>0$ 时刻的 $v(t)$
+
+<img src="./transition.assets/image-20221014162703560.png" alt="image-20221014162703560" style="zoom:50%;" />
+
+10、下图中，求  $t>0$ 时刻的 $v(t)$ 和 $v_R(t)$
+
+<img src="./transition.assets/image-20221014162946042.png" alt="image-20221014162946042" style="zoom:50%;" />
+
+11、下图中，求  $t>0$ 时刻的 $v$ 和 $i$
+
+<img src="./transition.assets/image-20221014163147176.png" alt="image-20221014163147176" style="zoom:50%;" />
 
 **参考解答**
 
@@ -548,7 +578,10 @@ $$
 
    故而  $i=(1+0.5e^{-2t}-1.5e^{-6t})A$ 
 
-
+8. <img src="./transition.assets/image-20221014162540938.png" alt="image-20221014162540938" style="zoom:40%;" />
+9. <img src="./transition.assets/image-20221014162732111.png" alt="image-20221014162732111" style="zoom:35%;" />
+10. <img src="./transition.assets/image-20221014163023557.png" alt="image-20221014163023557" style="zoom:30%;" />
+11. <img src="./transition.assets/image-20221014163210595.png" alt="image-20221014163210595" style="zoom:35%;" />
 
 
 ## 知识点3：阶跃响应与冲激响应

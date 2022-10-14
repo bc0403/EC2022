@@ -315,6 +315,10 @@ C. 120 Ω、120 Ω、120 Ω		 D. 360 Ω、360 Ω、40 Ω
 
 <img src="./methods.assets/2-3-3.png" alt="2-3-3" style="zoom: 50%;" />
 
+4、分析电路，求$R_{ab}$, $i$
+
+<img src="./methods.assets/image-20221014140506033.png" alt="image-20221014140506033" style="zoom:50%;" />
+
 
 
 **参考解答**
@@ -332,6 +336,8 @@ $$
 $$
 
 <img src="./methods.assets/image-20220830092323304.png" alt="image-20220830092323304" style="zoom:50%;" />
+
+4. <img src="./methods.assets/image-20221014140611621.png" alt="image-20221014140611621" style="zoom:50%;" />
 
 
 
@@ -387,9 +393,13 @@ $$
 
 <img src="./methods.assets/2-4-9.png" alt="2-4-9" style="zoom: 50%;" />
 
+10、用网孔电流法，求$I_o$
 
+<img src="./methods.assets/image-20221014141007501.png" alt="image-20221014141007501" style="zoom:50%;" />
 
+11、求图中的三个网孔电流
 
+<img src="./methods.assets/image-20221014141134899.png" alt="image-20221014141134899" style="zoom:50%;" />
 
 
 
@@ -559,7 +569,8 @@ $$
 
    <img src="./methods.assets/image-20220913171723945.png" alt="image-20220913171723945" style="zoom:50%;" />
 
-
+10. <img src="./methods.assets/image-20221014141037147.png" alt="image-20221014141037147" style="zoom:40%;" />
+11. <img src="./methods.assets/image-20221014141207668.png" alt="image-20221014141207668" style="zoom:40%;" />
 
 ## 知识点5：节点电压法
 
@@ -633,7 +644,9 @@ $$
 
 <img src="./methods.assets/2-5-12.png" alt="2-5-12" style="zoom: 50%;" />
 
+13、用节点电压法，求节点1、2、3的电压值
 
+<img src="./methods.assets/image-20221014140730215.png" alt="image-20221014140730215" style="zoom:50%;" />
 
 **参考解答**
 
@@ -909,6 +922,8 @@ $$
     $v_o(t)=j\frac{0.4v_{s2}-0.25v_{s1}}{0.05+j0.15}=238.2\angle-102.2°{\rm V}=238.2\cos(2000t-102.2°){\rm V}$ 
 
     <img src="./methods.assets/image-20220913173751086.png" alt="image-20220913173751086" style="zoom:50%;" />
+    
+13. <img src="./methods.assets/image-20221014140838041.png" alt="image-20221014140838041" style="zoom:50%;" />
 
 
 
@@ -1186,11 +1201,14 @@ A. <img src="./methods.assets/2-8-1-A.png" alt="2-8-1-A" style="zoom:60%;" />			
 
 C. <img src="./methods.assets/2-8-1-C.png" alt="2-8-1-C" style="zoom:60%;" />				D. <img src="./methods.assets/2-8-1-D.png" alt="2-8-1-D" style="zoom:60%;" />
 
+2、求下列电路$ab$端口的诺顿等效电路
 
+<img src="./methods.assets/image-20221014142014459.png" alt="image-20221014142014459" style="zoom:50%;" />
 
  **参考解答**
 
 1. C
+1. <img src="./methods.assets/image-20221014142038126.png" alt="image-20221014142038126" style="zoom:40%;" />
 
 
 
@@ -1212,7 +1230,9 @@ A. 一定		B. 不一定
 
 A. 100％				B. 50％				C. 25％				D. 不能确定
 
+4、下列电路中，$R_L$取什么值时可以获得最大功率传输，并计算该最大功率
 
+<img src="./methods.assets/image-20221014142208664.png" alt="image-20221014142208664" style="zoom:50%;" />
 
 **参考解答**
 
@@ -1235,6 +1255,19 @@ A. 100％				B. 50％				C. 25％				D. 不能确定
    $R_{in}=\frac{v}{i}=\frac{9i_1}{1.5i_1}=6Ω$ 
 
    因此，当 $R_L=R_{in}=6Ω$ 时负载电阻 $R_L$ 可获得最大功率。
-   
+
 3. D
 
+4. <img src="./methods.assets/image-20221014142239724.png" alt="image-20221014142239724" style="zoom:40%;" />
+
+### 知识点10：电源变换
+
+1、采用电源变换，求下列电路中的$i_o$
+
+<img src="./methods.assets/image-20221014141503636.png" alt="image-20221014141503636" style="zoom:50%;" />
+
+
+
+**参考解答**
+
+1. <img src="./methods.assets/image-20221014141543207.png" alt="image-20221014141543207" style="zoom:40%;" />

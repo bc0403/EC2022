@@ -246,6 +246,14 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
 <img src="./coupling.assets/6-3-12.png" alt="6-3-12" style="zoom: 50%;" />
 
+11、下面理想变压器电路中，求 $V_o$ 和电源输出的复功率
+
+<img src="./coupling.assets/image-20221014184320880.png" alt="image-20221014184320880" style="zoom:50%;" />
+
+12、求下面电路中的 $V_o$
+
+<img src="./coupling.assets/image-20221014184446832.png" alt="image-20221014184446832" style="zoom:50%;" />
+
 
 
 **参考解答**
@@ -368,7 +376,11 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
 10. 7.5
 
-   
+11. <img src="./coupling.assets/image-20221014184348602.png" alt="image-20221014184348602" style="zoom:35%;" />
+
+12. <img src="./coupling.assets/image-20221014184518647.png" alt="image-20221014184518647" style="zoom:30%;" />
+
+     
 
 ## 知识点4： 互感耦合电路的分析
 
@@ -411,6 +423,18 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 7、电感耦合电路如图所示。$L_1=L_2=2{\rm H}$，$M=1{\rm H}$，$C=1{\rm F}$，$R_1=R_2=1{\Omega}$，$u_s(t)=100\cos(t+15°){\rm V}$，求电源提供的有功功率。
 
 <img src="./coupling.assets/6-4-7.png" alt="6-4-7" style="zoom:50%;" />
+
+8、求耦合系数，以及 $t=1.5s$ 时耦合电感中的储能
+
+<img src="./coupling.assets/image-20221014183608149.png" alt="image-20221014183608149" style="zoom:50%;" />
+
+9、求以下电路的输入阻抗（从电压源往右看的阻抗）和流过电压源的电流
+
+<img src="./coupling.assets/image-20221014183853601.png" alt="image-20221014183853601" style="zoom:50%;" />
+
+10、用 T 型等效模型化简电路，求 $I_1$ 和 $I_2$
+
+<img src="./coupling.assets/image-20221014184106756.png" alt="image-20221014184106756" style="zoom:40%;" />
 
 
 
@@ -533,6 +557,12 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
    电源提供的有功功率为
 
    $P_{Av}=\frac{1}{2}{\rm real}(u_s \cdot I_1^*)=2.5{\rm kW}$
+
+8. <img src="./coupling.assets/image-20221014183700089.png" alt="image-20221014183700089" style="zoom:30%;" />
+
+9. <img src="./coupling.assets/image-20221014183935960.png" alt="image-20221014183935960" style="zoom:35%;" />
+
+10. <img src="./coupling.assets/image-20221014184134932.png" alt="image-20221014184134932" style="zoom:30%;" />
 
    
 
