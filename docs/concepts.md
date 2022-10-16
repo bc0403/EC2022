@@ -169,6 +169,14 @@ A. 4 A		B. 16 A		C. $-4$ A		D. $-6$ A
 
 <img src="./concepts.assets/image-20221014140114854.png" alt="image-20221014140114854" style="zoom:50%;" />
 
+7、求下图中的 $I$ 和 $V_{ab}$
+
+<img src="./concepts.assets/image-20221016164210540.png" alt="image-20221016164210540" style="zoom:40%;" />
+
+8、求下图中的 $i_1$ 和 $i_2$
+
+<img src="./concepts.assets/image-20221016164432832.png" alt="image-20221016164432832" style="zoom:40%;" />
+
 **参考解答**
 
 1. D
@@ -178,6 +186,8 @@ A. 4 A		B. 16 A		C. $-4$ A		D. $-6$ A
 
 5. <img src="./concepts.assets/image-20221014140014802.png" alt="image-20221014140014802" style="zoom:50%;" />
 6. <img src="./concepts.assets/image-20221014140152713.png" alt="image-20221014140152713" style="zoom:50%;" />
+7. <img src="./concepts.assets/image-20221016164301843.png" alt="image-20221016164301843" style="zoom:40%;" />
+8. <img src="./concepts.assets/image-20221016164459807.png" alt="image-20221016164459807" style="zoom:40%;" />
 
 ## 知识点4：其他
 

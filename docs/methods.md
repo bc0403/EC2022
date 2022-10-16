@@ -112,19 +112,41 @@ A. 10 Ω				B. 9.5 Ω				C. 9 Ω				D. 8.5 Ω
 
 <img src="./methods.assets/2-1-7.png" alt="2-1-7" style="zoom: 50%;" />
 
+8、求下图的等效电容
 
+<img src="./methods.assets/image-20221016172214833.png" alt="image-20221016172214833" style="zoom:50%;" />
 
+9、求下图的等效电容
 
+<img src="./methods.assets/image-20221016172311777.png" alt="image-20221016172311777" style="zoom:50%;" />
+
+10、求下图的等效电感
+
+<img src="./methods.assets/image-20221016172448288.png" alt="image-20221016172448288" style="zoom:50%;" />
 
 **参考解答**
 
 1. C
+
 2. $\frac{R}{1-a}$
+
 3. 电流源        电压源
+
 4. 8 F
+
 5. A
+
 6. B
+
 7. $-20$
+
+8. <img src="./methods.assets/image-20221016172229472.png" alt="image-20221016172229472" style="zoom:50%;" />
+
+9. <img src="./methods.assets/image-20221016172339053.png" alt="image-20221016172339053" style="zoom:50%;" />
+
+   <img src="./methods.assets/image-20221016172356740.png" alt="image-20221016172356740" style="zoom:50%;" />
+
+10. <img src="./methods.assets/image-20221016172511829.png" alt="image-20221016172511829" style="zoom:50%;" />
 
 
 
@@ -401,6 +423,10 @@ $$
 
 <img src="./methods.assets/image-20221014141134899.png" alt="image-20221014141134899" style="zoom:50%;" />
 
+12、用网孔电流法，求下图中的 $i_o$
+
+<img src="./methods.assets/image-20221016170223798.png" alt="image-20221016170223798" style="zoom:50%;" />
+
 
 
 **参考解答**
@@ -571,6 +597,7 @@ $$
 
 10. <img src="./methods.assets/image-20221014141037147.png" alt="image-20221014141037147" style="zoom:40%;" />
 11. <img src="./methods.assets/image-20221014141207668.png" alt="image-20221014141207668" style="zoom:40%;" />
+12. <img src="./methods.assets/image-20221016170248573.png" alt="image-20221016170248573" style="zoom:50%;" />
 
 ## 知识点5：节点电压法
 
@@ -647,6 +674,14 @@ $$
 13、用节点电压法，求节点1、2、3的电压值
 
 <img src="./methods.assets/image-20221014140730215.png" alt="image-20221014140730215" style="zoom:50%;" />
+
+14、用节点电压法，求下图中的 $V_x$
+
+<img src="./methods.assets/image-20221016165056251.png" alt="image-20221016165056251" style="zoom:40%;" />
+
+15、用节点电压法，求下图中的$V_o$
+
+<img src="./methods.assets/image-20221016165836817.png" alt="image-20221016165836817" style="zoom:50%;" />
 
 **参考解答**
 
@@ -875,23 +910,23 @@ $$
 
 10. 解：
 
-    以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
+   以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
 
-    因为与第一个节点相连接的 3 Ω 为多余电阻，则有：
-    $$
-    \begin{cases}
-    (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
-    v_{n2}=8 \\
-    -\frac{1}{2}v_{n1}-\frac{1}{2}v_{n2}+(\frac{1}{2}+\frac{1}{2}+\frac{1}{1})v_{n3}=v
-    \end{cases}
-    $$
-    因受控源引入的附加方程为：
-    $$
-    v_{n1}=v-2×3
-    $$
-    解得：$\begin{cases} v_{n1}=13.6V \\ v_{n2}=8V \\ v_{n3}=15.2V \end{cases}$ 	得：$v=19.6V$ 
+   因为与第一个节点相连接的 3 Ω 为多余电阻，则有：
+   $$
+   \begin{cases}
+   (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
+   v_{n2}=8 \\
+   -\frac{1}{2}v_{n1}-\frac{1}{2}v_{n2}+(\frac{1}{2}+\frac{1}{2}+\frac{1}{1})v_{n3}=v
+   \end{cases}
+   $$
+   因受控源引入的附加方程为：
+   $$
+   v_{n1}=v-2×3
+   $$
+   解得：$\begin{cases} v_{n1}=13.6V \\ v_{n2}=8V \\ v_{n3}=15.2V \end{cases}$ 	得：$v=19.6V$ 
 
-    <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
+   <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
 
 11. 解：
 
@@ -922,8 +957,20 @@ $$
     $v_o(t)=j\frac{0.4v_{s2}-0.25v_{s1}}{0.05+j0.15}=238.2\angle-102.2°{\rm V}=238.2\cos(2000t-102.2°){\rm V}$ 
 
     <img src="./methods.assets/image-20220913173751086.png" alt="image-20220913173751086" style="zoom:50%;" />
-    
+
 13. <img src="./methods.assets/image-20221014140838041.png" alt="image-20221014140838041" style="zoom:50%;" />
+
+14. 列方程如下：
+
+    $\frac{v_1-20}{20} + \frac{v_1-0}{20} + \frac{v_2-10}{10} \frac{v_2-v_3}{5} = 0$
+
+    $\frac{v_3-v_2}{5} - 9 +\frac{v_3-0}{10} = 0$
+
+    $v_2 - v_1 = 10$
+
+    求得 $V_x = v_2 = 30$ V
+
+15. <img src="./methods.assets/image-20221016165901505.png" alt="image-20221016165901505" style="zoom:50%;" />
 
 
 
@@ -968,6 +1015,10 @@ A. 电流			B. 电压			C. 功率
 7、用叠加定理求下图所示电路中电流源两端的电压 *U*。
 
 <img src="./methods.assets/2-6-7-real.png" alt="2-6-7-real" style="zoom: 60%;" />
+
+8、用叠加定理，求下图中的 $v_o$
+
+<img src="./methods.assets/image-20221016170544924.png" alt="image-20221016170544924" style="zoom:50%;" />
 
 
 
@@ -1014,8 +1065,10 @@ A. 电流			B. 电压			C. 功率
    ​	  $U_2=(30-30×\frac{3}{3+2})-(30-30×\frac{6}{6+3})=12V-10V=2V$ 
 
    ​	  $U=U_1+U_2=8.4V$ 
-   
-   
+
+8. <img src="./methods.assets/image-20221016170642347.png" alt="image-20221016170642347" style="zoom:50%;" />
+
+   <img src="./methods.assets/image-20221016170701304.png" alt="image-20221016170701304" style="zoom:50%;" />
 
 ## 知识点7：戴维南定理
 
@@ -1060,6 +1113,10 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
 7、求如图所示电路的戴维南等效电路。
 
 <img src="./methods.assets/image-20220913174043968.png" alt="image-20220913174043968" style="zoom:50%;" />
+
+8、求下图中，ab端所见的戴维南等效电路
+
+<img src="./methods.assets/image-20221016171424793.png" alt="image-20221016171424793" style="zoom:50%;" />
 
 
 
@@ -1187,7 +1244,9 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
 
    <img src="./methods.assets/解-2-7-7.png" alt="解-2-7-7" style="zoom: 40%;" />
 
+8. <img src="./methods.assets/image-20221016171448035.png" alt="image-20221016171448035" style="zoom:50%;" />
 
+   <img src="./methods.assets/image-20221016171531160.png" alt="image-20221016171531160" style="zoom:50%;" />
 
 
 
@@ -1260,14 +1319,22 @@ A. 100％				B. 50％				C. 25％				D. 不能确定
 
 4. <img src="./methods.assets/image-20221014142239724.png" alt="image-20221014142239724" style="zoom:40%;" />
 
-### 知识点10：电源变换
+## 知识点10：电源变换
 
-1、采用电源变换，求下列电路中的$i_o$
+1、采用电源变换，求下列电路中的 $i_o$
 
 <img src="./methods.assets/image-20221014141503636.png" alt="image-20221014141503636" style="zoom:50%;" />
+
+2、采用电源变化，求下图中的 $i_o$
+
+<img src="./methods.assets/image-20221016170855635.png" alt="image-20221016170855635" style="zoom:50%;" />
 
 
 
 **参考解答**
 
 1. <img src="./methods.assets/image-20221014141543207.png" alt="image-20221014141543207" style="zoom:40%;" />
+
+2. <img src="./methods.assets/image-20221016170921856.png" alt="image-20221016170921856" style="zoom:50%;" />
+
+   <img src="./methods.assets/image-20221016171000008.png" alt="image-20221016171000008" style="zoom:50%;" />

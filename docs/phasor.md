@@ -271,6 +271,18 @@ A. 4 A				B. $2\sqrt{2}{\rm A}$				C. $\sqrt{12}{\rm A}$				D. 2 A
 
 <img src="./phasor.assets/3-2-12.png" alt="3-2-12" style="zoom: 50%;" />
 
+12、下图中，$I_o = 2\angle0^\circ$ A，求 $V_s$
+
+<img src="./phasor.assets/image-20221016174941447.png" alt="image-20221016174941447" style="zoom:50%;" />
+
+13、下图中，$\omega = 1000$ rad/s，求输入阻抗 $Z_{in}$
+
+<img src="./phasor.assets/image-20221016175250262.png" alt="image-20221016175250262" style="zoom:50%;" />
+
+14、求下图的等效阻抗 $Z_{eq}$
+
+<img src="./phasor.assets/image-20221016175414332.png" alt="image-20221016175414332" style="zoom:50%;" />
+
 
 
 
@@ -278,26 +290,46 @@ A. 4 A				B. $2\sqrt{2}{\rm A}$				C. $\sqrt{12}{\rm A}$				D. 2 A
 **参考解答**
 
 1. A
+
 1. $‒ 50\sin(100 t + 30°)$ mA 或 $50\cos(100 t +120°)$ mA
+
 1. (2 - j2) Ω
+
 1. (1 + j) Ω      (1 - j) S
+
 1. (3 - j3) Ω
+
 1. 1.131∠81.87° A
+
 1. B
+
 1. D
+
 1. B
+
 1. (4 - j4) Ω
+
 1. 解：
 
-   $\vec{I}=\frac{\vec{U_{AB}}}{Z_1+Z_2+Z_3}=0.7729\angle-43.85°{\rm A}$ 
+    $\vec{I}=\frac{\vec{U_{AB}}}{Z_1+Z_2+Z_3}=0.7729\angle-43.85°{\rm A}$ 
 
-   $\vec{U_1}=\vec{I} \times Z_1=3.864\angle-13.85°{\rm V}$ 
+    $\vec{U_1}=\vec{I} \times Z_1=3.864\angle-13.85°{\rm V}$ 
 
-   $\vec{U_2}=\vec{I} \times Z_2=3.092\angle16.15°{\rm V}$ 
+    $\vec{U_2}=\vec{I} \times Z_2=3.092\angle16.15°{\rm V}$ 
 
-   $\vec{U_3}=\vec{I} \times Z_3=3.279\angle1.146°{\rm V}$ 
+    $\vec{U_3}=\vec{I} \times Z_3=3.279\angle1.146°{\rm V}$ 
 
-   
+1. <img src="./phasor.assets/image-20221016175009270.png" alt="image-20221016175009270" style="zoom:50%;" />
+
+    <img src="./phasor.assets/image-20221016175026578.png" alt="image-20221016175026578" style="zoom:50%;" />
+
+1. <img src="./phasor.assets/image-20221016175316233.png" alt="image-20221016175316233" style="zoom:50%;" />
+
+    <img src="./phasor.assets/image-20221016175330806.png" alt="image-20221016175330806" style="zoom:50%;" />
+
+1. <img src="./phasor.assets/image-20221016175438338.png" alt="image-20221016175438338" style="zoom:50%;" />
+
+    
 
 
 
@@ -358,6 +390,22 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
 10、下面电路中，求 $ab$ 端的戴维南等效电路
 
 <img src="./phasor.assets/image-20221014174134916.png" alt="image-20221014174134916" style="zoom:50%;" />
+
+11、用节点电压法，求 $v_o(t)$
+
+<img src="./phasor.assets/image-20221016182525660.png" alt="image-20221016182525660" style="zoom:50%;" />
+
+12、下面电路中，$i(t) = 2\cos(1000t)$ A，请用网孔电流法，求 $i_o(t)$
+
+<img src="./phasor.assets/image-20221016182746885.png" alt="image-20221016182746885" style="zoom:50%;" />
+
+13、下图中，$i(t)=5\sin(1000t)$ A，请用网孔电流法，求 $i_o(t)$
+
+<img src="./phasor.assets/image-20221016211148924.png" alt="image-20221016211148924" style="zoom:50%;" />
+
+14 、求下列电路的戴维南和诺顿等效电路
+
+<img src="./phasor.assets/image-20221016211502319.png" alt="image-20221016211502319" style="zoom:50%;" />
 
 
 
@@ -466,6 +514,18 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
 9. <img src="./phasor.assets/image-20221014174000841.png" alt="image-20221014174000841" style="zoom:40%;" />
 
 10. <img src="./phasor.assets/image-20221014174212200.png" alt="image-20221014174212200" style="zoom:40%;" />
+
+11. <img src="./phasor.assets/image-20221016182548259.png" alt="image-20221016182548259" style="zoom:50%;" />
+
+    <img src="./phasor.assets/image-20221016182609928.png" alt="image-20221016182609928" style="zoom:50%;" />
+
+12. <img src="./phasor.assets/image-20221016182810241.png" alt="image-20221016182810241" style="zoom:50%;" />
+
+13. ![image-20221016211216487](./phasor.assets/image-20221016211216487.png)
+
+    <img src="./phasor.assets/image-20221016211230141.png" alt="image-20221016211230141" style="zoom:50%;" />
+
+14. <img src="./phasor.assets/image-20221016211543434.png" alt="image-20221016211543434" style="zoom:50%;" />
 
 
 
@@ -609,6 +669,12 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
 
 
 25、某负载的无功功率为 140 kVAR，功率因数为0.85 lagging，求并联多大的电容，可以使功率因数校正到1。假设220V (rms)，60Hz供电。
+
+
+
+26、求下图中 $Z_L$ 可以获得的最大功率
+
+<img src="./phasor.assets/image-20221016211718438.png" alt="image-20221016211718438" style="zoom:50%;" />
 
 
 
@@ -808,16 +874,17 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
     ​		   $\vec{I_L}=\frac{\vec{V_{Th}}}{R_{Th}+Z_L}=\frac{1}{2}\angle0°{\rm A}$ 
 
     ​		   $\vec{V_L}=\vec{I_L} \cdot Z_L=25\sqrt{2}\angle-45°{\rm V}$ 
-    
+
     ​		   $\vec{S}=\frac{1}{2} \vec{V_L} \cdot \vec{I_L}^*=\frac{25\sqrt{2}}{4} \angle-45°{\rm W}$ 
-    
+
     ​	  故而负载上的最大平均功率为
-    
+
     ​	  	 $P_{Av}=6.25{\rm W}$ 
 
 23. <img src="./phasor.assets/image-20221014174532290.png" alt="image-20221014174532290" style="zoom:40%;" />
 24. <img src="./phasor.assets/image-20221014182739587.png" alt="image-20221014182739587" style="zoom:40%;" />
 25. <img src="./phasor.assets/image-20221014183138283.png" alt="image-20221014183138283" style="zoom:35%;" />
+26. <img src="./phasor.assets/image-20221016211740356.png" alt="image-20221016211740356" style="zoom:40%;" />
 
 
 

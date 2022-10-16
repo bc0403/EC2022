@@ -180,6 +180,26 @@ A. $i(t)=8-4e^{-t}$ 		B. $i(t)=8+4e^{-t}$ 		C. $i(t)=8-6e^{-t}$ 		D. $i(t)=8+6e^
 
 <img src="./transition.assets/image-20221014160624696.png" alt="image-20221014160624696" style="zoom:50%;" />
 
+17、下图中， $i(0)=2$ A，求 $i(t)$
+
+<img src="./transition.assets/image-20221016172953025.png" alt="image-20221016172953025" style="zoom:50%;" />
+
+18、下图中，$v(t)=20u(t)$ V，求 $v_C(t)$ 和 $i_C(t)$
+
+<img src="./transition.assets/image-20221016173342705.png" alt="image-20221016173342705" style="zoom:50%;" />
+
+19、下图中，$v(t) = 10[u(t)-u(t-2)]$ V，求 $v_C(t)$
+
+<img src="./transition.assets/image-20221016173613176.png" alt="image-20221016173613176" style="zoom:50%;" />
+
+20、下图中，$v(t) = 40u(t)$ V，求 $i_L(t)$ 和 $v_L(t)$
+
+<img src="./transition.assets/image-20221016173831777.png" alt="image-20221016173831777" style="zoom:50%;" />
+
+21、下图中，求 $t>0$ 时刻的 $v_o(t)$
+
+<img src="./transition.assets/image-20221016174038018.png" alt="image-20221016174038018" style="zoom:50%;" />
+
 **参考解答**
 
 1. 解：
@@ -378,7 +398,23 @@ $$
 
 16. <img src="./transition.assets/image-20221014160706569.png" alt="image-20221014160706569" style="zoom:40%;" />
 
-    
+17. $\tau = \frac{L}{R} = 0.5$
+
+    $i(t) = 2e^{-2t}$ A
+
+18. <img src="./transition.assets/image-20221016173417320.png" alt="image-20221016173417320" style="zoom:50%;" />
+
+19. <img src="./transition.assets/image-20221016173645552.png" alt="image-20221016173645552" style="zoom:50%;" />
+
+    <img src="./transition.assets/image-20221016173707312.png" alt="image-20221016173707312" style="zoom:50%;" />
+
+20. <img src="./transition.assets/image-20221016173904315.png" alt="image-20221016173904315" style="zoom:50%;" />
+
+21. <img src="./transition.assets/image-20221016174107032.png" alt="image-20221016174107032" style="zoom:50%;" />
+
+    <img src="./transition.assets/image-20221016174122675.png" alt="image-20221016174122675" style="zoom:50%;" />
+
+      
 
 
 ## 知识点2：二阶电路的响应

@@ -152,6 +152,10 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 
 <img src="./resonator.assets/image-20221014192055516.png" alt="image-20221014192055516" style="zoom:50%;" />
 
+22、下图中，Q值为100，求 $\omega_0$, $\omega_1$, $\omega_2$, $B$
+
+<img src="./resonator.assets/image-20221016212405751.png" alt="image-20221016212405751" style="zoom:40%;" />
+
 
 
 **参考解答**
@@ -276,7 +280,9 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 
 21. <img src="./resonator.assets/image-20221014192124702.png" alt="image-20221014192124702" style="zoom:30%;" />
 
-      
+22. <img src="./resonator.assets/image-20221016212426977.png" alt="image-20221016212426977" style="zoom:40%;" />
+
+    ​    
 
 ## 知识点2：滤波器
 

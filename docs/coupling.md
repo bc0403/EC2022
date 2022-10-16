@@ -112,6 +112,10 @@ C. 线圈中流过的电流			D. 线圈的空间媒质
 
 <img src="./coupling.assets/6-1-9.png" alt="6-1-9" style="zoom:50%;" />
 
+10、求下图的等效电感
+
+<img src="./coupling.assets/image-20221016211928426.png" alt="image-20221016211928426" style="zoom:50%;" />
+
 
 
 
@@ -153,6 +157,8 @@ C. 线圈中流过的电流			D. 线圈的空间媒质
    代入计算得到：$I_2=-2I_1$，$U=j\omega I_1$ 
 
    因此该端口电路的等效电感为 $L_{eq}=\frac{U}{j\omega I_1}=1{\rm H}$ 
+
+10. <img src="./coupling.assets/image-20221016212001942.png" alt="image-20221016212001942" style="zoom:50%;" />
 
    
 
