@@ -148,11 +148,11 @@ C. 线圈中流过的电流			D. 线圈的空间媒质
 
    列网孔电流方程如下
 
-   $\begin{cases}	-U+j\omega(L_1+L_3)I_1-j\omega L_3I_2+j\omega M_{21}I_2+j\omega M_{32}I_2=0 \\ j\omega (L_2+L_3)I_2-j\omega L_3I_1-j\omega M_{32}I_2+j\omega M_{21}I_1=0	\end{cases}$ 
+   $\begin{cases}	-U+j\omega(L_1+L_3)I_1-j\omega L_3I_2+j\omega M_{21}I_2+j\omega M_{32}I_2=0 \\ j\omega (L_2+L_3)I_2 - j\omega L_3I_1 - j\omega M_{32}I_2 - j\omega M_{32}(I_2 - I_1)+ j\omega M_{21}I_1=0	\end{cases}$ 
 
-   代入计算得到：$I_2=-\frac{1}{2}I_1$，$U=4j\omega I_1$ 
+   代入计算得到：$I_2=-2I_1$，$U=j\omega I_1$ 
 
-   因此该端口电路的等效电感为 $L_{eq}=\frac{U}{j\omega I_1}=4{\rm H}$ 
+   因此该端口电路的等效电感为 $L_{eq}=\frac{U}{j\omega I_1}=1{\rm H}$ 
 
    
 
