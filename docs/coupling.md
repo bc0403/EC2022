@@ -260,6 +260,16 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
 <img src="./coupling.assets/image-20221014184446832.png" alt="image-20221014184446832" style="zoom:50%;" />
 
+13、如下图所示电路，若正弦电流源为 $I_s=2\cos(1000t){\rm A}$，求：
+
+(1)	从ab端向右看的等效阻抗；
+
+(2)	流过电阻 $R_2$ 的电流。
+
+<img src="./coupling.assets/image-20221108131259658.png" alt="image-20221108131259658" style="zoom:50%;" />
+
+
+
 
 
 **参考解答**
@@ -386,7 +396,15 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
 12. <img src="./coupling.assets/image-20221014184518647.png" alt="image-20221014184518647" style="zoom:30%;" />
 
-     
+13. 解：
+
+    (1)	$Z_{ab}=n^2(R_2+j \omega L)=10^2 \times (10+j \times 10^3 \times 10 \times 10^{-3})=(1+j){\rm k \Omega}$ 
+
+    (2)	$\vec{I_1}=\frac{R_1}{R_1+\frac{1}{j \omega C}+n^2(j \omega L+R_2)} \vec{I_s}=\frac{10^3}{10^3-j\times10^3+(1+j)\times10^3}\times2\angle0°=1\angle0°{\rm A}$ 
+
+    ​		$\vec{I_2}=n\vec{I_1}=10\angle0°{\rm A}$ 
+
+       
 
 ## 知识点4： 互感耦合电路的分析
 
@@ -441,6 +459,10 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 10、用 T 型等效模型化简电路，求 $I_1$ 和 $I_2$
 
 <img src="./coupling.assets/image-20221014184106756.png" alt="image-20221014184106756" style="zoom:40%;" />
+
+11、调整下图所示电路的负载阻抗 $Z_L$，使得其上的平均功率最大，求此时的 $Z_L$ 和其上的最大功率。
+
+<img src="./coupling.assets/image-20221108131344807.png" alt="image-20221108131344807" style="zoom:50%;" />
 
 
 
@@ -570,7 +592,29 @@ C. $\frac{V_2}{V_1}=-\frac{N_2}{N_1},\frac{I_2}{I_1}=\frac{N_1}{N_2}$ 		D.  $\fr
 
 10. <img src="./coupling.assets/image-20221014184134932.png" alt="image-20221014184134932" style="zoom:30%;" />
 
-   
+11. 解：
+
+    <img src="./coupling.assets/image-20221108131406044.png" alt="image-20221108131406044" style="zoom:50%;" />
+
+    ​          $\vec{V_{Th}}=\frac{120\angle0°}{16+j12}\times j10=(36+j48){\rm V}$ 
+
+      ​		负载短路：
+
+      ​				$(16+j12)\vec{I_1}-j10\vec{I_{sc}}=120\angle0°$ 
+
+      ​				$-j10\vec{I_1}+(11+j23)\vec{I_{sc}}=0$ 
+
+      ​		解得：$\vec{I_{sc}}=2.4\angle0°{\rm A}$ 
+
+      ​		因此，$Z_{Th}=\frac{36+j48}{2.4}=(15+j20){\rm \Omega}$ 
+
+      ​				$\therefore Z_L=Z_{Th}^{*}=(15-j20){\rm \Omega}$ 
+
+      ​				$\vec{I_L}=\frac{\vec{V_{Th}}}{Z_{Th}+Z_L}=\frac{36+j48}{30}=(1.2+j1.6){\rm A}(rms)$ 
+
+      ​				$P_L=|\vec{I_L}|^2(15)=60{\rm W}$ 
+
+     
 
 ## 知识点5： 其他
 

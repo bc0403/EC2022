@@ -224,6 +224,16 @@ A. 4V		B. 5V		C. 6V		D. 3V
 
 <img src="./methods.assets/2-2-11.png" alt="2-2-11" style="zoom: 50%;" />
 
+12、下图所示的电路中的 $i_a=4{\rm A}$，$i_b=-2{\rm A}$，求：
+
+(1)  电流源的输出电流 $i_g$；
+
+(2)  30 Ω 电阻上消耗的功率；
+
+(3)  100 V 电压源提供的功率。
+
+<img src="./methods.assets/image-20221108121633988.png" alt="image-20221108121633988" style="zoom:50%;" />
+
 
 
 
@@ -313,7 +323,25 @@ A. 4V		B. 5V		C. 6V		D. 3V
 
     $\begin{cases}	-12+4i+2v_o-4+6i=0 \\ i=-\frac{v_o}{6}	\end{cases}$ 	$\Rightarrow$	 $\begin{cases}	i=-8{\rm A} \\ v_o=48{\rm V}	\end{cases}$ 
 
-    
+12. 解：
+
+    (1)
+
+    <img src="./methods.assets/image-20221108121801834.png" alt="image-20221108121801834" style="zoom:50%;" />
+
+    ​		$v_2=100+4\times15=160{\rm V}$；		$v_1=160-(9+11+10)\times2=100{\rm V}$ 
+
+    ​		$i_1=\frac{v_1}{4+16}=\frac{100}{20}=5{\rm A}$；				$i_3=i_1-2=5-2=3{\rm A}$ 
+
+    ​		$v_g=v_1+30i_3=100+30\times3=190{\rm V}$ 
+
+    ​		$i_4=2+4=6{\rm A}$ 
+
+    ​		$i_g=-i_4-i_3=-6-3=-9{\rm A}$ 
+
+    (2)	$P_{30{\rm \Omega}}=30\times 3^2=270{\rm W}$ 
+
+    (3)	$P=100 \times 4=400{\rm W}$ 
 
 
 
@@ -426,6 +454,10 @@ $$
 12、用网孔电流法，求下图中的 $i_o$
 
 <img src="./methods.assets/image-20221016170223798.png" alt="image-20221016170223798" style="zoom:50%;" />
+
+13、用网孔电流法求下图所示电路中的支路电流 $i_a \sim i_e$ 。
+
+<img src="./methods.assets/image-20221108122105347.png" alt="image-20221108122105347" style="zoom:50%;" />
 
 
 
@@ -596,8 +628,34 @@ $$
    <img src="./methods.assets/image-20220913171723945.png" alt="image-20220913171723945" style="zoom:50%;" />
 
 10. <img src="./methods.assets/image-20221014141037147.png" alt="image-20221014141037147" style="zoom:40%;" />
+
 11. <img src="./methods.assets/image-20221014141207668.png" alt="image-20221014141207668" style="zoom:40%;" />
+
 12. <img src="./methods.assets/image-20221016170248573.png" alt="image-20221016170248573" style="zoom:50%;" />
+
+13. 解：
+
+    <img src="./methods.assets/image-20221108122128366.png" alt="image-20221108122128366" style="zoom:50%;" />
+
+    ​        $200=85i_1-25i_2-50i_3$ 
+
+    ​		$0=-75i_1+35i_2+150i_3$ 		(supermesh)
+
+    ​		$i_3-i_2=4.3(i_1-i_2)$ 
+
+    解得：$i_1=4.6{\rm A}$；	$i_2=5.7{\rm A}$；	$i_3=0.97{\rm A}$ 
+
+    ​		$i_a=i_2=5.7{\rm A}$；		$i_b=i_1=4.6{\rm A}$；		$i_c=i_3=0.97{\rm A}$ 
+
+    ​		$i_d=i_1-i_2=-1.1{\rm A}$；		$i_e=i_1-i_3=3.63{\rm A}$ 
+
+    另一种更标准的网孔电流方程如下：
+
+    ​		$\left\{ \begin{array}{l}-25{i_1} + 35{i_2} =  - {V_0}\\85{i_1} - 25{i_2} - 50{i_3} = 200\\-50{i_1} + 150{i_3} = {V_0}\\{i_3} - {i_2} = 4.3\left( {{i_1} - {i_2}} \right)\end{array} \right.$ 
+
+    
+
+    
 
 ## 知识点5：节点电压法
 
@@ -682,6 +740,14 @@ $$
 15、用节点电压法，求下图中的$V_o$
 
 <img src="./methods.assets/image-20221016165836817.png" alt="image-20221016165836817" style="zoom:50%;" />
+
+16、求下图所示电路的节点电压 $v_1$，$v_2$，$v_3$。
+
+<img src="./methods.assets/image-20221108121920847.png" alt="image-20221108121920847" style="zoom:50%;" />
+
+
+
+
 
 **参考解答**
 
@@ -910,23 +976,23 @@ $$
 
 10. 解：
 
-   以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
+  以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
 
-   因为与第一个节点相连接的 3 Ω 为多余电阻，则有：
-   $$
-   \begin{cases}
-   (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
-   v_{n2}=8 \\
-   -\frac{1}{2}v_{n1}-\frac{1}{2}v_{n2}+(\frac{1}{2}+\frac{1}{2}+\frac{1}{1})v_{n3}=v
-   \end{cases}
-   $$
-   因受控源引入的附加方程为：
-   $$
-   v_{n1}=v-2×3
-   $$
-   解得：$\begin{cases} v_{n1}=13.6V \\ v_{n2}=8V \\ v_{n3}=15.2V \end{cases}$ 	得：$v=19.6V$ 
+  因为与第一个节点相连接的 3 Ω 为多余电阻，则有：
+  $$
+  \begin{cases}
+  (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
+  v_{n2}=8 \\
+  -\frac{1}{2}v_{n1}-\frac{1}{2}v_{n2}+(\frac{1}{2}+\frac{1}{2}+\frac{1}{1})v_{n3}=v
+  \end{cases}
+  $$
+  因受控源引入的附加方程为：
+  $$
+  v_{n1}=v-2×3
+  $$
+  解得：$\begin{cases} v_{n1}=13.6V \\ v_{n2}=8V \\ v_{n3}=15.2V \end{cases}$ 	得：$v=19.6V$ 
 
-   <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
+  <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
 
 11. 解：
 
@@ -972,7 +1038,19 @@ $$
 
 15. <img src="./methods.assets/image-20221016165901505.png" alt="image-20221016165901505" style="zoom:50%;" />
 
+16. 解：
 
+    $i_o=\frac{v_2}{40}$ 
+
+    $-5i_o + \frac{v_1}{20} +\frac{v_1-v_2}{5}=0$ 		 		so	$10v_1-13v_2+0v_3=0$ 
+
+    $\frac{v_2-v_1}{5}+\frac{v_2}{40}+\frac{v_2-v_3}{10}=0$ 				so	$-8v_1+13v_2-4v_3=0$ 
+
+    $\frac{v_3-v_2}{10}+\frac{v_3-11.5i_o}{5}+\frac{v_3-96}{4}=0$ 	 so	$0v_1-63v_2+220v_3=9600$ 
+
+    解得：$v_1=156{\rm V}$；$v_2=120{\rm V}$；$v_3=78{\rm V}$ 
+
+    
 
 ## 知识点6：叠加定理
 
@@ -1120,7 +1198,9 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
 
 
 
+9、计算并画出下图所示电路的戴维南等效电路。
 
+<img src="./methods.assets/image-20221108130320759.png" alt="image-20221108130320759" style="zoom:50%;" />
 
 
 
@@ -1247,6 +1327,58 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
 8. <img src="./methods.assets/image-20221016171448035.png" alt="image-20221016171448035" style="zoom:50%;" />
 
    <img src="./methods.assets/image-20221016171531160.png" alt="image-20221016171531160" style="zoom:50%;" />
+   
+   9. 解：
+   
+      (1)	首先，根据 $Y-\Delta$ 变换关系，$Z_Y=5{\rm \Omega}$ 变换为 $Z_{\Delta}=15{\rm \Omega}$；
+   
+      ​		15 Ω 与 10 Ω 并联得到等效电阻为 6 Ω；
+   
+      ​		再由 $\Delta \rightarrow Y$ 转换得到：${Z_Y}^{'}=2{\rm \Omega}$；整理得到变换后的电路图如下所示：
+   
+      <img src="./methods.assets/image-20221108130426417.png" alt="image-20221108130426417" style="zoom:50%;" />
+   
+      (2)	求开路电压 $v_{oc}$。
+   
+      ​		由流经 $R_4$ 的电流为 $I$，可以得到节点2电压为 $v_2=2I$；
+   
+      ​		因此，流经 $R_3$、$R_5$ 的电流为 $0.5I$；
+   
+      ​		流经 $R_2$ 的电流为 $I+0.5I=1.5I$；方向由左至右；
+   
+      ​		节点1处由 KCL 可得，流经 $R_1$ 的电流为 $0.5I$，方向由左至右。
+   
+      ​		列网孔电流方程有：
+   
+      ​		$R_1 \times 0.5I+R_2 \times 1.5I + R_4 \times I = 8{\rm V}$，代入解得：$I=1{\rm A}$ 
+   
+      ​		开路电压 $v_{oc}=R_5 \times 0.5I=1{\rm V}$。
+   
+      (3)	求等效电阻 $R_o$ 。
+   
+      ​		在端口施加一电压 $v=1{\rm V}$，独立电压源短路。
+   
+      ​		则 $v_3=1{\rm V}$，$v_2=2I$；
+   
+      ​			 $I_{R_5}=\frac{v_3}{R_5}=0.5{\rm A}$，方向由上至下；
+   
+      ​			 $I_{R_3}=\frac{v_3-v_2}{R_3}=\frac{1-2I}{2}=0.5-I$，方向由右至左；
+   
+      ​			 $I_{R_2}=I_{R_3}-I_{R_4}=0.5-2I$，方向由右至左；
+   
+      ​			 $I_{R_1}=I_{R_2}+I=0.5-I$，方向由右至左；
+   
+      ​		根据 $v_2=I_{R_2}R_2+I_{R_1}R_1=IR_4$ 代入得到：
+   
+      ​			 $2 \times (0.5-2I)+6 \times (0.5-I)=2 \times I$ 
+   
+      ​		解得：$I=\frac{1}{3}{\rm A}$ 
+   
+      ​		因此，$I_o=I_{R_3}+I_{R_5}=(0.5-\frac{1}{3})+\frac{1}{2}=\frac{2}{3}{\rm A}$，$R_o=\frac{v}{I_o}=1.5{\rm \Omega}$ 
+   
+      (4)	画出戴维南等效电路如下
+   
+      <img src="./methods.assets/image-20221108130458225.png" alt="image-20221108130458225" style="zoom:50%;" />
 
 
 

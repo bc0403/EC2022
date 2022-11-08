@@ -407,6 +407,10 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
 
 <img src="./phasor.assets/image-20221016211502319.png" alt="image-20221016211502319" style="zoom:50%;" />
 
+15、如下图所示电路，已知 $v_s=10\cos(1000t){\rm V}$，$i_s=4\sin(2000t){\rm A}$，用叠加原理求电容两端的电压 $u_x(t)$ 。
+
+<img src="./phasor.assets/image-20221108130704675.png" alt="image-20221108130704675" style="zoom:50%;" />
+
 
 
 **参考解答**
@@ -526,6 +530,30 @@ A. $Z_L=Z_{Th}$ 		B. $Z_L=-Z_{Th}$ 		C. $Z_L=Z_{Th}^*$ 		D. $Z_L=|Z_{Th}|$
     <img src="./phasor.assets/image-20221016211230141.png" alt="image-20221016211230141" style="zoom:50%;" />
 
 14. <img src="./phasor.assets/image-20221016211543434.png" alt="image-20221016211543434" style="zoom:50%;" />
+
+15. 解：
+
+    (1)	保留 5 V 的电压源，turn off  $i_s(t)$ 电流源和 $v_s(t)$ 电压源
+
+    ​		电路稳定后，电感等效于短路，故有：$v_1(t)=5{\rm V}$ 
+
+    (2)	保留电流源，turn off 两个电压源
+
+    ​				$4=\frac{V_2}{20}+\frac{V_2}{j \times 2000 \times 10 \times 10^{-3}}+\frac{V_2}{\frac{1}{j \times 2000 \times 100 \times 10^{-6}}}$ 
+
+    ​		解得：$V_2=8\sqrt{10}\angle-71.565°{\rm V}$ 
+
+    ​		$\therefore v_2(t)=8\sqrt{10}\sin(2000t-71.565°){\rm V}$ 
+
+    (3)	保留 $v_s(t)$ 电压源，turn off 电流源和 5 V 的电压源
+
+    ​				$\frac{V_3-10}{20}+\frac{V_3}{j\times1000\times10\times10^{-3}}+\frac{V_3}{\frac{1}{j\times1000\times100\times10^{-6}}}=0$ 
+
+    ​		解得：$V_3=10\angle0°{\rm V}$ 
+
+    ​		$\therefore v_3(t)=10\cos(1000t){\rm V}$ 
+
+    (4)	综上，$u_x(t)=[5+8\sqrt{10}\sin(2000t-71.56°)+10\cos(1000t)]{\rm V}$ 
 
 
 
@@ -675,6 +703,16 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
 26、求下图中 $Z_L$ 可以获得的最大功率
 
 <img src="./phasor.assets/image-20221016211718438.png" alt="image-20221016211718438" style="zoom:50%;" />
+
+27、如下图所示电路，已知 $v_s=5\sqrt{2}\cos(100t+30°){\rm V}$，$C_1=100{\rm \mu F}$，$R_2=50{\rm \Omega}$，$R_3=100{\rm \Omega}$，$L_4=20{\rm mH}$​。若在 a、b 两端之间接一负载，那么：
+
+(1)	该负载取何值时可以实现最大平均功率输出？此时负载是容性的还是感性的？
+
+(2)	负载上的最大平均功率为多少？ 
+
+(3)	求负载消耗的视在功率、有功功率、无功功率、功率因数和复功率。
+
+<img src="./phasor.assets/image-20221108130801915.png" alt="image-20221108130801915" style="zoom:50%;" />
 
 
 
@@ -885,6 +923,44 @@ A. 有功功率		B. 无功功率		C. 复功率		D. 视在功率
 24. <img src="./phasor.assets/image-20221014182739587.png" alt="image-20221014182739587" style="zoom:40%;" />
 25. <img src="./phasor.assets/image-20221014183138283.png" alt="image-20221014183138283" style="zoom:35%;" />
 26. <img src="./phasor.assets/image-20221016211740356.png" alt="image-20221016211740356" style="zoom:40%;" />
+
+27. 解：
+
+    首先，求 a、b 两端的戴维南等效电路				$\vec{V_{Th}}=5\sqrt{2}\angle30°(\frac{R_3}{R_3+\frac{1}{j\omega C_1}}-\frac{j \omega L_4}{R_2+j \omega L_4})=4.796\angle72.71°{\rm V}$ 
+
+    ​				$Z_{Th}=\frac{1}{j \omega C_1}||R_3+R_2||(j \omega L_4)=69.37\angle-43.79°{\rm \Omega}$ 
+
+    (1)	负载共轭匹配时，可以实现最大平均功率输出。
+
+    ​				$Z_L=Z_{Th}^{*}=69.37\angle 43.79°{\rm \Omega}$ 
+
+    ​		此时，为感性负载。
+
+    (2)	当共轭匹配时，负载上有最大平均功率
+
+    ​				$\vec{I_L}=\frac{\vec{V_{Th}}}{Z_{Th}+Z_L}=0.04789 \angle 72.71°{\rm A}$ 
+
+    ​				$\vec{V_L}=\vec{I_L} \cdot Z_L=3.322\angle 116.5°{\rm V}$ 
+
+    ​				$\vec{S_L}=\frac{1}{2}\vec{V_L} \cdot \vec{I_L}^{*}=0.07955\angle43.79°{\rm W}$ 
+
+    ​		故而负载上的最大平均功率为 $P_{Lmax}=57.42{\rm mW}$ 
+
+    (3)	负载消耗的功率：
+
+    ​				$\vec{I_L}=\frac{\vec{V_{Th}}}{Z_{Th}+Z_L}=0.04789 \angle 72.71°{\rm A}$ 
+
+    ​				$\vec{V_L}=\vec{I_L} \cdot Z_L=3.322\angle 116.5°{\rm V}$ 
+
+    ​		复功率	$\vec{S_L}=\frac{1}{2}\vec{V_L} \cdot \vec{I_L}^{*}=0.07955\angle43.79°{\rm W}$ 
+
+    ​		有功功率	$P=0.07955\cos43.79°=0.057{\rm W}$ 
+
+    ​		无功功率	$Q=0.055$ ${\rm VAR}$ 
+
+    ​		视在功率	$S=0.079$ ${\rm V \cdot A}$ 
+
+    ​		功率因数	$\lambda=\cos\phi=0.722$ 
 
 
 

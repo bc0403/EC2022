@@ -479,6 +479,10 @@ $$
 
 <img src="./transition.assets/image-20221014163147176.png" alt="image-20221014163147176" style="zoom:50%;" />
 
+12、如下图所示电路，电容初始储能为0，在 $t=0{\rm s}$ 时开关 S1 开路，$t=1{\rm s}$ 时刻，开关 S2 转接到另一端，求 $0<t \leqslant 1{\rm s}$ 和 $t>1{\rm s}$ 时电容两端电压 $V$ 。
+
+<img src="./transition.assets/image-20221108130953018.png" alt="image-20221108130953018" style="zoom:50%;" />
+
 **参考解答**
 
 1. ![image-20220906093928168](./transition.assets/image-20220906093928168.png)
@@ -618,6 +622,43 @@ $$
 9. <img src="./transition.assets/image-20221014162732111.png" alt="image-20221014162732111" style="zoom:35%;" />
 10. <img src="./transition.assets/image-20221014163023557.png" alt="image-20221014163023557" style="zoom:30%;" />
 11. <img src="./transition.assets/image-20221014163210595.png" alt="image-20221014163210595" style="zoom:35%;" />
+12. 解：
+
+    (1)	$0{\rm s} \leqslant t \leqslant 1{\rm s}$ 时
+
+    ​		$C\frac{dv}{dt}=\frac{10-v}{2}$ 
+
+    ​		$\frac{dv}{dt}+\frac{\ln2}{2}v=5\ln2$ 
+
+    ​		$V_0=0{\rm V}$，$V_{\infty}=10{\rm V}$，$\tau=RC=\frac{2}{\ln2}=2.885$ 
+
+    ​		$v(t)=10-10e^{-(\frac{\ln2}{2})t}=10-10\times 2^{-0.5t}(0 \leqslant t \leqslant 1)$ 
+
+    ​		$v(1)=10-10e^{-\ln2/2}=2.929{\rm V}$ 
+
+    (2)	$t \geqslant 1{\rm s}$ 
+
+    ​		$iR+L\frac{di}{dt}+\frac{1}{C}\int_1^t id\tau +V_0=0$ 
+
+    ​		$\frac{d^2i}{dt^2}+\frac{R}{L}\frac{di}{dt}+\frac{i}{LC}=0$ 
+
+    ​		$\alpha=\frac{R}{2L}=10$，$\omega_0^2=\frac{1}{LC}=10\ln2$ 
+
+    ​		$i(t)=A_1e^{s_1(t-1)}+A_2e^{s_2(t-1)}(t \geqslant1)$ 
+
+    ​		$s_{1,2}=-10\pm\sqrt{100-10\ln2}$ 
+
+    ​		$i(1^+)=A_1+A_2=0$ 
+
+    ​		$\frac{di(1^+)}{dt}=A_1s_1+A_2s_2=\frac{-V(1)}{L}=-29.29$ 
+
+    ​		$s_1=-19.65$，$A_1=1.5176$ 
+
+    ​		$s_2=-0.35$，$A_2=-1.5176$ 
+
+    ​		$i(t)=1.5176e^{-19.65(t-1)}-1.5176e^{-0.35(t-1)}(t \geqslant 1)$ 
+
+    ​		$v(t)=-[L\frac{di(t)}{dt}+i(t)R]=-0.0531e^{-19.65(t-1)}+2.981e^{-0.35(t-1)}(t \geqslant 1)$ 
 
 
 ## 知识点3：阶跃响应与冲激响应

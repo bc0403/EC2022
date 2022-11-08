@@ -156,6 +156,16 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 
 <img src="./resonator.assets/image-20221016212405751.png" alt="image-20221016212405751" style="zoom:40%;" />
 
+23、如下串联 RLC 谐振电路中，已知 $C=20{\rm \mu F}$，$L=2{\rm mH}$，$R=5{\rm \Omega}$，$v_s(t)=10\cos(\omega t){\rm V}$，求：
+
+(1)	 输入阻抗与频率之间的关系式；
+
+(2)	谐振角频率 $\omega_0$ 和 Q 值；
+
+(3)	带宽 $\Delta \omega$ 和两个半功率点角频率 $\omega_1$ 、$\omega_2$ 。（频率单位用 $\rm rad/s$ 表示）
+
+<img src="./resonator.assets/image-20221108131148926.png" alt="image-20221108131148926" style="zoom:50%;" />
+
 
 
 **参考解答**
@@ -281,6 +291,22 @@ A. 10 μF		B. 5 μF		C. 50 μF		D. 500 μF
 21. <img src="./resonator.assets/image-20221014192124702.png" alt="image-20221014192124702" style="zoom:30%;" />
 
 22. <img src="./resonator.assets/image-20221016212426977.png" alt="image-20221016212426977" style="zoom:40%;" />
+
+23. 解：
+
+    (1)	$Z_{in}=R+j \omega L + \frac{1}{j \omega C}=(5+j\frac{2\omega^2-5\times10^7}{1000\omega}){\rm \Omega}$ ；
+
+    (2)	$\omega_0=\frac{1}{\sqrt{LC}}=\frac{1}{\sqrt{2\times10^{-3}\times20\times10^{-6}}}=5\times10^3{\rm rad/s}$ ；
+
+    ​		$Q=\frac{\omega_0L}{R}=2$ ；
+
+    (3)	带宽 $B=\Delta \omega=\frac{\omega_0}{Q}=2.5\times10^3{\rm rad/s}$ ；
+
+    ​		$\omega_1=\omega_0-\frac{\Delta \omega}{2}=3.75\times10^3{\rm rad/s}$ ；
+
+    ​		$\omega_2=\omega_0+\frac{\Delta \omega}{2}=6.25\times10^3{\rm rad/s}$ 。
+
+    注意：更精确地，因为此处 $Q=2<10$，采用半功率精确计算，$\omega_1=3904{\rm rad/s}$，$\omega_2=6404{\rm rad/s}$ 。
 
     ​    
 
