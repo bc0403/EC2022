@@ -171,7 +171,7 @@ A. 栅极电压		B. 源极电压		C. 栅极电压＋ $V_t$		D. 栅极电压－ $
 
 
 
-3、如下图所示电路，已知耗尽型 NMOS 管的 $g_m=0.9{\rm mS}$，$U_{DD}=12{\rm V}$，$R_1=2{\rm M \Omega}$，$R_2=300{\rm k \Omega}$，$R_4=12{\rm k \Omega}$，电容 $C_1$ 和 $C_2$ 近似为无穷大。求电压增益 $A_u$、输入电阻 $R_i$ 和输出电阻 $R_o$ 。
+3、如下图所示电路，已知耗尽型 NMOS 管的 $g_m=0.9{\rm mS}$，$U_{DD}=12{\rm V}$，$R_1=2{\rm M \Omega}$，$R_2=300{\rm k \Omega}$，$R_3=100{\rm k\Omega}$，$R_4=12{\rm k \Omega}$，电容 $C_1$ 和 $C_2$ 近似为无穷大。求电压增益 $A_u$、输入电阻 $R_i$ 和输出电阻 $R_o$ 。
 
 <img src="./mosfet.assets/9-3-9.png" alt="9-3-9" style="zoom:50%;" />
 
