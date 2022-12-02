@@ -307,29 +307,31 @@ A. 抗共模干扰能力强		B. 增益大		C. 占用芯片面积小		D. 以上�
 
 7. 解：
 
+   解：
+
    (1)  静态工作点
 
    ​	  ${I_{EQ}} = \frac{{{V_{EE}} - {V_{BE}}}}{{2{R_{EE}}}} = \frac{{12 - 0.7}}{{2 \times 10}} = 0.565{\rm{mA}}$ 
 
-   ​	  ${I_{BQ}} = \frac{{{I_{EQ}}}}{{1 + \beta }} = \frac{{0.585}}{{81}} \times {10^3} \approx 7.2{\rm{ \mu A}}$ 
+   ​	  ${I_{BQ}} = \frac{{{I_{EQ}}}}{{1 + \beta }} = \frac{{0.565}}{{81}} \times {10^3} \approx 6.975{\rm{ \mu A}}$ 
 
-   ​	  ${I_{CQ}} = \beta {I_{BQ}} \approx 0.576{\rm{ mA}}$ 
+   ​	  ${I_{CQ}} = \beta {I_{BQ}} \approx 0.558{\rm{ mA}}$ 
 
-   ​	  ${V_{CEQ}} = {V_{CC}} - {I_{CQ}}{R_C} - 2{I_{EQ}}{R_{EE}} + {V_{EE}}=12 - 0.576 \times 10 - 2 \times 0.565 \times 10 + 12=6.94{\rm V}$ 
+   ​	  ${V_{CEQ}} = {V_{CC}} - {I_{CQ}}{R_C} - 2{I_{EQ}}{R_{EE}} + {V_{EE}}=12 - 0.558 \times 10 - 2 \times 0.565 \times 10 + 12=7.12{\rm V}$ 
 
    (2)  不接 $R_L$ 时
 
-   ​	  ${r_\pi } = \frac{{{V_T}}}{{{I_B}}} = \frac{{25}}{{7.2}} \approx 3.47{\rm{ k}}\Omega$ 
+   ​	  ${r_\pi } = \frac{{{V_T}}}{{{I_B}}} = \frac{{25}}{{6.975}} \approx 3.584{\rm{ k}}\Omega $ 
 
-   ​	  ${A_d} =  - \frac{{\beta {R_C}}}{{{r_\pi }}} =  - \frac{{80 \times 10}}{{3.47}} \approx  - 230.5$ 
+   ​	  ${A_d} =  - \frac{{\beta {R_C}}}{{{r_\pi }}} =  - \frac{{80 \times 10}}{{3.584}} \approx  -223.2{\rm V/V}$ 
 
-   ​	  ${v_o} = {v_i}{A_d} = 10 \times \left( { - 230.5} \right) \times {10^{ - 3}} \approx  - 2.3{\rm{ V}}$ 
+   ​	  ${v_o} = {v_i}{A_d} = 10 \times \left( { - 223.2} \right) \times {10^{ - 3}} \approx  - 2.232{\rm{ V}}$ 
 
    (3)  接 $R_L$ 时
 
-   ​	  ${A_d} =  - \frac{{\beta \left( {{R_C}{\rm{//}}\frac{{{R_L}}}{2}} \right)}}{{{r_\pi }}} =  - \frac{{80 \times \left( {10{\rm{//10}}} \right)}}{{3.47}} \approx  - 115.3$ 
+   ​	  ${A_d} =  - \frac{{\beta \left( {{R_C}{\rm{//}}\frac{{{R_L}}}{2}} \right)}}{{{r_\pi }}} =  - \frac{{80 \times \left( {10{\rm{//10}}} \right)}}{{3.584}} \approx  - 111.6{\rm V/V}$ 
 
-   ​	  ${v_o} = {v_i}{A_d} = 10 \times \left( { - 115.3} \right) \times {10^{ - 3}} \approx  - 1.2{\rm{ V}}$ 
+   ​	  ${v_o} = {v_i}{A_d} = 10 \times \left( { - 111.6} \right) \times {10^{ - 3}} \approx  - 1.12{\rm{ V}}$ 
 
    
 
