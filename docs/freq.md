@@ -74,7 +74,15 @@ A. 0°		B. −90°		C. −180°		D. −270°
 
 3. D
 
-4. ${\dot A_v} = \frac{{{{10}^4}}}{{(1 + jf/{{10}^5}{\rm{Hz}})(1 + jf/{{10}^7}{\rm{Hz}})(1 + jf/{{10}^8}{\rm{Hz}})}}$ 
+4. 由波特图可知：
+
+   $f_{p1}= 10^5{\rm Hz}$，$f_{p2}= 10^7{\rm Hz}$，$f_{p3}= 10^8{\rm Hz}$ 
+
+   $20\lg{A_0}=80 \Rightarrow A_0=10^4$ 
+
+   又因为该放大电路为反相放大电路
+
+   因此， ${\dot A_v} = - \frac{{{{10}^4}}}{{(1 + jf/{{10}^5}{\rm{Hz}})(1 + jf/{{10}^7}{\rm{Hz}})(1 + jf/{{10}^8}{\rm{Hz}})}}$ 
 
 5. -45°      45°
 
@@ -340,51 +348,51 @@ C. 引入一个高频零点			D. 引入一个高频极点
 
    (3)  从 $C_e$ 看进去的电阻：
 
-   ​	  ${R_{{C_e}}} = {R_e}//\left( {{R_f} + \frac{{{r_\pi } + {R_{b1}}//{R_{b2}}}}{{\beta  + 1}}} \right) = 1.0//\left( {0.3 + \frac{{2.525 + 25//5}}{{100 + 1}}} \right) \approx 0.26{\rm{8 k\Omega }}$ 
+   ​	  ${R_{{C_e}}} = {R_e}//\left( {{R_f} + \frac{{r_\pi }}{{\beta  + 1}}} \right) = 1.0//\left( {0.3 + \frac{2.525}{{100 + 1}}} \right) \approx 0.2453{\rm{k\Omega }}$ 
 
    ​	  由 $C_e$ 确定的低频极点的频率：
 
-   ​	  ${f_{{C_e}}} = \frac{1}{{2\pi {C_e}{R_{{C_E}}}}} = \frac{1}{{2\pi  \times 10 \times {{10}^{ - 6}} \times 268}} \approx 5{\rm{9}}{\rm{.42 Hz}}$ 
+   ​	  ${f_{{C_e}}} = \frac{1}{{2\pi {C_e}{R_{{C_E}}}}} = \frac{1}{{2\pi  \times 10 \times {{10}^{ - 6}} \times 245.3}} \approx 64.88{\rm{Hz}}$ 
 
    
 
 10. 解：
 
-    直流分析：
+   直流分析：
 
-    ​	  ${V_{BB}} = \frac{{{R_2}}}{{{R_1} + {R_2}}}{V_{CC}} = \frac{{15}}{{15 + 27}} \times 9 = 3.21V$ 
+   ​	  ${V_{BB}} = \frac{{{R_2}}}{{{R_1} + {R_2}}}{V_{CC}} = \frac{{15}}{{15 + 27}} \times 9 = 3.21V$ 
 
-    ​	  ${R_{BB}} = \frac{{{R_1}{R_2}}}{{{R_1} + {R_2}}} = 9.64{\rm k \Omega}$ 
+   ​	  ${R_{BB}} = \frac{{{R_1}{R_2}}}{{{R_1} + {R_2}}} = 9.64{\rm k \Omega}$ 
 
-    ​	  ${I_B} = \frac{{{V_{BB}} - 0.7}}{{{R_{BB}} + \left( {1 + \beta } \right){R_E}}} = \frac{{3.21 - 0.7}}{{9.64 + 101 \times 1.2}} = 0.0192mA$ 
+   ​	  ${I_B} = \frac{{{V_{BB}} - 0.7}}{{{R_{BB}} + \left( {1 + \beta } \right){R_E}}} = \frac{{3.21 - 0.7}}{{9.64 + 101 \times 1.2}} = 0.0192mA$ 
 
-    ​	  ${I_C} = \beta {I_B} = 1.92mA$ 
+   ​	  ${I_C} = \beta {I_B} = 1.92mA$ 
 
-    ​	  ${I_E} \approx 1.94{\rm{ mA}}$ 
+   ​	  ${I_E} \approx 1.94{\rm{ mA}}$ 
 
-    ​	  ${V_C} = {V_{CC}} - {I_C}{R_C} = 9 - 1.92 \times 2.2 = 4.78V$ 
+   ​	  ${V_C} = {V_{CC}} - {I_C}{R_C} = 9 - 1.92 \times 2.2 = 4.78V$ 
 
-    交流分析
+   交流分析
 
-    <img src="./freq.assets/image-20221006193011635.png" alt="image-20221006193011635" style="zoom:50%;" />
+   <img src="./freq.assets/image-20221006193011635.png" alt="image-20221006193011635" style="zoom:50%;" />
 
-    ​	  ${r_{be}} = {r_{bb'}} + \frac{{{V_T}}}{{{I_B}}} = 0 + \frac{{25}}{{0.0192}} \times \frac{1}{{1000}} \approx {\rm{1}}{\rm{.30 k\Omega }}$ 
+   ​	  ${r_{be}} = {r_{bb'}} + \frac{{{V_T}}}{{{I_B}}} = 0 + \frac{{25}}{{0.0192}} \times \frac{1}{{1000}} \approx {\rm{1}}{\rm{.30 k\Omega }}$ 
 
-    ​	  ${R_i} = {R_1}//{R_2}//{r_{be}} \approx {\rm{1}}{\rm{.15 k\Omega }}$ 
+   ​	  ${R_i} = {R_1}//{R_2}//{r_{be}} \approx {\rm{1}}{\rm{.15 k\Omega }}$ 
 
-    ​	  ${R_o} = {R_C} = 2.2{\rm{ k}}\Omega$ 
+   ​	  ${R_o} = {R_C} = 2.2{\rm{ k}}\Omega$ 
 
-    ​	  ${A_v} = \frac{{{v_o}}}{{{v_i}}} =  - \frac{{\beta \left( {{R_C}//{R_L}} \right)}}{{{r_{be}}}} =  - \frac{{100 \times 1.05}}{{1.30}} \approx  - 80.{\rm{77 V/V}}$ 
+   ​	  ${A_v} = \frac{{{v_o}}}{{{v_i}}} =  - \frac{{\beta \left( {{R_C}//{R_L}} \right)}}{{{r_{be}}}} =  - \frac{{100 \times 1.05}}{{1.30}} \approx  - 80.{\rm{77 V/V}}$ 
 
-    ​	  ${A_{vs}} = {A_v}\frac{{{R_i}}}{{{R_i} + {R_s}}} =  - 8.{\rm{33 V/V}}$ 
+   ​	  ${A_{vs}} = {A_v}\frac{{{R_i}}}{{{R_i} + {R_s}}} =  - 8.{\rm{33 V/V}}$ 
 
-    从 $C_E$ 看进去的电阻：
+   从 $C_E$ 看进去的电阻：
 
-    ​	  ${R_{{C_E}}} = {R_E}{\rm{//}}\frac{{{r_{be}} + {R_1}{\rm{//}}{R_2}{\rm{//}}{R_s}}}{{\beta  + 1}} = \left( {1.2{\rm{//}}\frac{{1.30 + 27{\rm{//15//10}}}}{{100 + 1}}} \right) \times 1000 \approx 58.48{\rm{ }}\Omega$ 
+   ​	  ${R_{{C_E}}} = {R_E}{\rm{//}}\frac{{{r_{be}} + {R_1}{\rm{//}}{R_2}{\rm{//}}{R_s}}}{{\beta  + 1}} = \left( {1.2{\rm{//}}\frac{{1.30 + 27{\rm{//15//10}}}}{{100 + 1}}} \right) \times 1000 \approx 58.48{\rm{ }}\Omega$ 
 
-    由 $C_E$ 确定的低频极点的频率
+   由 $C_E$ 确定的低频极点的频率
 
-    ​	  ${f_{{C_E}}} = \frac{1}{{2\pi {C_E}{R_{{C_E}}}}} = \frac{1}{{2\pi  \times 10 \times {{10}^{ - 6}} \times 58.48}} \approx {\rm{272}}{\rm{.3 Hz}}$ 
+   ​	  ${f_{{C_E}}} = \frac{1}{{2\pi {C_E}{R_{{C_E}}}}} = \frac{1}{{2\pi  \times 10 \times {{10}^{ - 6}} \times 58.48}} \approx {\rm{272}}{\rm{.3 Hz}}$ 
 
 
 
