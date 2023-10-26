@@ -1,3 +1,7 @@
+## 0.2.3
+* upgrade vitepress to v1.0.0-rc.24
+* change to Macbook Arm platform (M2Pro)
+
 ## 0.2.2
 upgrade node.js and vitepress to v16.17.0 and v1.0.0-alpha.12
 

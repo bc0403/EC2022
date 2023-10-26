@@ -1,5 +1,4 @@
 import mathjax3 from 'markdown-it-mathjax3';
-
 const customElements = ['mjx-container'];
 
 export default {
@@ -7,6 +6,7 @@ export default {
   description: 'course material',
   base: '/EC2022',
   lastUpdated: true,
+
   //Theme related configurations
   themeConfig: {
     sidebar: {
@@ -32,6 +32,19 @@ export default {
       },
     },
   },
+
+  // for size warning
+  build: {
+    rollupOptions: {
+        output:{
+            manualChunks(id) {
+                if (id.includes('node_modules')) {
+                    return id.toString().split('node_modules/')[1].split('/')[0].toString();
+                }
+            }
+        }
+    }
+  }
 };
 
 function sidebarEC() {

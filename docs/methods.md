@@ -341,7 +341,7 @@ A. 4V		B. 5V		C. 6V		D. 3V
 
     (2)	$P_{30{\rm \Omega}}=30\times 3^2=270{\rm W}$ 
 
-    (3)	$P=100 \times 4=400{\rm W}$ 
+    (3)	按关联参考方向，$P=100 \times 4=400{\rm W}$，所以电源吸收功率 400 W。 
 
 
 
@@ -979,17 +979,17 @@ $$
   以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
 
   因为与第一个节点相连接的 3 Ω 为多余电阻，则有：
-  $$
+$$
   \begin{cases}
   (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
   v_{n2}=8 \\
   -\frac{1}{2}v_{n1}-\frac{1}{2}v_{n2}+(\frac{1}{2}+\frac{1}{2}+\frac{1}{1})v_{n3}=v
   \end{cases}
-  $$
+$$
   因受控源引入的附加方程为：
-  $$
+$$
   v_{n1}=v-2×3
-  $$
+$$
   解得：$\begin{cases} v_{n1}=13.6V \\ v_{n2}=8V \\ v_{n3}=15.2V \end{cases}$ 	得：$v=19.6V$ 
 
   <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
@@ -1330,11 +1330,7 @@ A. <img src="./methods.assets/2-7-2-A.png" alt="2-7-2-A" style="zoom:33%;" />	B.
    
    9. 解：
    
-      (1)	首先，根据 $Y-\Delta$ 变换关系，$Z_Y=5{\rm \Omega}$ 变换为 $Z_{\Delta}=15{\rm \Omega}$；
-   
-      ​		15 Ω 与 10 Ω 并联得到等效电阻为 6 Ω；
-   
-      ​		再由 $\Delta \rightarrow Y$ 转换得到：${Z_Y}^{'}=2{\rm \Omega}$；整理得到变换后的电路图如下所示：
+      (1)	首先，根据 $Y-\Delta$ 变换关系，且为了方便 $I$计算，将10 ohm 转化为 10/3 ohm，再与 5 ohm 并联，得到：${Z_Y}^{'}=2{\rm \Omega}$；整理得到变换后的电路图如下所示：
    
       <img src="./methods.assets/image-20221108130426417.png" alt="image-20221108130426417" style="zoom:50%;" />
    
