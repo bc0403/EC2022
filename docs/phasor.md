@@ -307,7 +307,7 @@ A. 4 A				B. $2\sqrt{2}{\rm A}$				C. $\sqrt{12}{\rm A}$				D. 2 A
 
 1. B
 
-    <img src="./phasor.assets/001a33ffe02feb64d9ce78ea9a139893.PNG" alt="001a33ffe02feb64d9ce78ea9a139893" style="zoom:50%;" />
+    <img src="./phasor.assets/3-2-10-solution.png" alt="3-2-10-solution" style="zoom:50%;" />
 
 1. (4 - j4) Ω
 
