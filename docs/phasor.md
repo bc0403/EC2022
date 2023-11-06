@@ -307,29 +307,31 @@ A. 4 A				B. $2\sqrt{2}{\rm A}$				C. $\sqrt{12}{\rm A}$				D. 2 A
 
 1. B
 
+    <img src="./phasor.assets/001a33ffe02feb64d9ce78ea9a139893.PNG" alt="001a33ffe02feb64d9ce78ea9a139893" style="zoom:50%;" />
+
 1. (4 - j4) Ω
 
 1. 解：
 
-    $\vec{I}=\frac{\vec{U_{AB}}}{Z_1+Z_2+Z_3}=0.7729\angle-43.85°{\rm A}$ 
+     $\vec{I}=\frac{\vec{U_{AB}}}{Z_1+Z_2+Z_3}=0.7729\angle-43.85°{\rm A}$ 
 
-    $\vec{U_1}=\vec{I} \times Z_1=3.864\angle-13.85°{\rm V}$ 
+     $\vec{U_1}=\vec{I} \times Z_1=3.864\angle-13.85°{\rm V}$ 
 
-    $\vec{U_2}=\vec{I} \times Z_2=3.092\angle16.15°{\rm V}$ 
+     $\vec{U_2}=\vec{I} \times Z_2=3.092\angle16.15°{\rm V}$ 
 
-    $\vec{U_3}=\vec{I} \times Z_3=3.279\angle1.146°{\rm V}$ 
+     $\vec{U_3}=\vec{I} \times Z_3=3.279\angle1.146°{\rm V}$ 
 
 1. <img src="./phasor.assets/image-20221016175009270.png" alt="image-20221016175009270" style="zoom:50%;" />
 
-    <img src="./phasor.assets/image-20221016175026578.png" alt="image-20221016175026578" style="zoom:50%;" />
+     <img src="./phasor.assets/image-20221016175026578.png" alt="image-20221016175026578" style="zoom:50%;" />
 
 1. <img src="./phasor.assets/image-20221016175316233.png" alt="image-20221016175316233" style="zoom:50%;" />
 
-    <img src="./phasor.assets/image-20221016175330806.png" alt="image-20221016175330806" style="zoom:50%;" />
+     <img src="./phasor.assets/image-20221016175330806.png" alt="image-20221016175330806" style="zoom:50%;" />
 
 1. <img src="./phasor.assets/image-20221016175438338.png" alt="image-20221016175438338" style="zoom:50%;" />
 
-    
+      
 
 
 
