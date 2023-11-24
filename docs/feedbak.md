@@ -482,7 +482,7 @@ A. 基本放大器		B. 选频网络		C. 干扰或噪声信号
 
 A. <img src="./feedbak.assets/12-3-3-A.png" alt="12-4-3-A" style="zoom: 40%;" /> 				B. <img src="./feedbak.assets/12-3-3-B.png" alt="12-4-3-B" style="zoom:40%;" /> 
 
-C. <img src="./feedbak.assets/12-3-3-C.png" alt="12-4-3-C" style="zoom:40%;" /> 				 D. <img src="../../../../work/teaching/电子电路基础/2022课程大纲调整/闵予/期末卷篇/习题及参考答案.assets/12-3-3-D.png" alt="12-4-3-D" style="zoom:40%;" /> 
+C. <img src="./feedbak.assets/12-3-3-C.png" alt="12-4-3-C" style="zoom:40%;" /> 				 D. <img src="./feedbak.assets/12-3-3-D.png" alt="12-4-3-D" style="zoom:40%;" /> 
 
 
 

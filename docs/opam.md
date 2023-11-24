@@ -83,9 +83,9 @@ C. <img src="./opam.assets/14-2-4-C.png" alt="14-2-4-C" style="zoom: 33%;" />		D
 
 7、以下运算放大器中，哪一个实现积分功能 ________ 。
 
-A. <img src="./opam.assets/14-2-7-A.png" alt="14-2-7-A" style="zoom:33%;" />			B. <img src="../../../../work/teaching/电子电路基础/2022课程大纲调整/闵予/期末卷篇/习题及参考答案.assets/14-2-7-B.png" alt="14-2-7-B" style="zoom:33%;" /> 
+A. <img src="./opam.assets/14-2-7-A.png" alt="14-2-7-A" style="zoom:33%;" />			B. <img src="./opam.assets/14-2-7-B.png" alt="14-2-7-B" style="zoom:33%;" /> 
 
-C. <img src="./opam.assets/14-2-7-C.png" alt="14-2-7-C" style="zoom: 33%;" />				 D. <img src="../../../../work/teaching/电子电路基础/2022课程大纲调整/闵予/期末卷篇/习题及参考答案.assets/14-2-7-D.png" alt="14-2-7-D" style="zoom:33%;" />
+C. <img src="./opam.assets/14-2-7-C.png" alt="14-2-7-C" style="zoom: 33%;" />				 D. <img src="./opam.assets/14-2-7-D.png" alt="14-2-7-D" style="zoom:33%;" />
 
 
 
