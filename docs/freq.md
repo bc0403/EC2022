@@ -68,7 +68,7 @@ A. 0°		B. −90°		C. −180°		D. −270°
 
 <img src="./freq.assets/11-1-8.png" alt="11-1-8" style="zoom: 80%;" />
 
-> $\frac{{100s}}{{\left( {1 + \frac{s}{{10}}} \right)\left( {1 + \frac{s}{{{{10}^4}}}} \right)\left( {1 + \frac{s}{{{{10}^5}}}} \right)}}$   或   $\frac{{1000}}{{\left( {1 + \frac{{10}}{s}} \right)\left( {1 + \frac{s}{{{{10}^4}}}} \right)\left( {1 + \frac{s}{{{{10}^5}}}} \right)}}$       （ $A_v$ 可正可负）
+> $\frac{{100s}}{{\left( {1 + \frac{s}{{10}}} \right)\left( {1 + \frac{s}{{{{10}^4}}}} \right)\left( {1 + \frac{s}{{{{10}^5}}}} \right)}}$   或   $\frac{{1000}}{{\left( {1 + \frac{{10}}{s}} \right)\left( {1 + \frac{s}{{{{10}^4}}}} \right)\left( {1 + \frac{s}{{{{10}^5}}}} \right)}}$ 
 
 9、某放大器的传递函数 $T(jf)=\frac{-10^4}{(1+\frac{jf}{10^3})(1+\frac{jf}{10^5})(1+\frac{jf}{10^6})}$ ，分别画出其幅度和相位波特图（用折线近似法，并注意标明关键位置的坐标和折线斜率）。
 
